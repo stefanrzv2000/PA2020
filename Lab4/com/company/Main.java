@@ -60,9 +60,44 @@ public class Main {
                         & hospitalPreferences.get(hospital).get(0).equals(residents[0]))
                 .forEach(System.out::println);
 
-        Problem p = new Problem(10,10);
+        Problem p = new Problem(30,500);
+        System.out.println("\n\n");
         System.out.println(p);
+        System.out.println();
+        System.out.println("The total capacity of the hospitals is " + p.totalCapacity());
+        System.out.println();
 
+        Algorithm greedy = new Greedy();
+        Algorithm gs = new GaleShapley();
+
+        Matching greedyMatching = greedy.solve(p);
+
+        System.out.println("\n\nGreedyMatching:\n");
+        System.out.println(greedyMatching);
+        System.out.println("The greedy matching satisfies " + greedyMatching.getSize() + " residents out of " + p.residents.size());
+        System.out.println(greedyMatching.isValid()?"The greedy matching is valid":"the greedy matching is NOT valid");
+        System.out.println(p.isStable(greedyMatching)?"The greedy matching is stable":"the greedy matching is NOT stable");
+        System.out.println("The greedy matching has a score of " + p.score(greedyMatching));
+
+        //System.out.println("\n\nGSMatching:\n");
+
+        //System.out.println("\n\n");
+        //System.out.println(p);
+        //System.out.println();
+
+        Matching GSMatching = gs.solve(p);
+
+        System.out.println("\n\nGSMatching:\n");
+        System.out.println(GSMatching);
+        System.out.println("The GS matching satisfies " + GSMatching.getSize() + " residents out of " + p.residents.size());
+        System.out.println(GSMatching.isValid()?"The GS matching is valid":"the GS matching is NOT valid");
+        System.out.println(p.isStable(GSMatching)?"The GS matching is stable":"the GS matching is NOT stable");
+        System.out.println("The GS matching has a score of " + p.score(GSMatching));
+
+
+        //System.out.println("\n\n");
+        //System.out.println(p);
+        //System.out.println();
         //IntStream stream = IntStream.rangeClosed(1,9);
         //stream.parallel().forEach(System.out::println);
     }

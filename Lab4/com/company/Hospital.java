@@ -50,6 +50,6 @@ public class Hospital implements Comparable<Hospital>{
 
     @Override
     public String toString() {
-        return name;
+        return name + " (" + capacity + ")";
     }
 }
