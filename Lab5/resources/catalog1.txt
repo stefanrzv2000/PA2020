@@ -1,0 +1,11 @@
+name: Java Resources
+path: /home/stefy/cpp/java/Lab5/resources/catalog1.ser
+Catalog_Size: 2
+Doocument[0]:
+id: java1
+name: Java Course 1
+location: https://profs.info.uaic.ro/~acf/java/slides/en/intro_slide_en.pdf
+Doocument[1]:
+id: java2
+name: Curs java
+location: /home/stefy/cpp/java/Lab5/resources/intro_slide_en.pdf

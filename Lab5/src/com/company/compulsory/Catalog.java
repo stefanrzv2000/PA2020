@@ -45,4 +45,27 @@ public class Catalog implements Serializable {
     public void setDocuments(List<Document> documents) {
         this.documents = documents;
     }
+
+    @Override
+    public String toString() {
+        return "Catalog:\n" +
+                "name: '" + name + '\'' +
+                "\npath='" + path + '\'' +
+                "\ndocuments:\n" + documents;
+    }
+
+    public String toHTML(){
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("<h1>").append(name).append(" </h1>\n");
+        sb.append("\t<p>path: ").append(path).append(" </p>\n");
+
+        sb.append("<h2>Documents:</h2>\n");
+
+        for(var document: documents){
+            sb.append(document.toHTML());
+        }
+
+        return sb.toString();
+    }
 }

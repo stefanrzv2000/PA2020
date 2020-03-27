@@ -44,4 +44,19 @@ public class Document implements Serializable {
     public void setLocation(String location) {
         this.location = location;
     }
+
+    @Override
+    public String toString() {
+        return
+                "\n\tid: " + id +
+                "\n\tname: " + name +
+                "\n\tlocation: " + location + "\n";
+    }
+
+    public String toHTML(){
+        return "\t\t<p>id: " + id + " </p>\n" +
+                "\t\t<p>name: " + name + " </p>\n" +
+                "\t\t<p>location: " + location + " </p>\n";
+    }
+
 }

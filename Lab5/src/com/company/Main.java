@@ -3,6 +3,7 @@ package com.company;
 import com.company.compulsory.*;
 import com.company.exceptions.InvalidCatalogException;
 import com.company.exceptions.InvalidDocumentException;
+import com.company.optional.CatalogShell;
 
 import java.io.IOException;
 
@@ -10,9 +11,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        CatalogShell shell = new CatalogShell();
+
+        shell.start();
+
         //String currentDir = System.getProperty("user.dir");
         //System.out.println("Current dir using System:" +currentDir);
-
+/*
         Main app = new Main();
         try {
             app.testCreateSave();
@@ -25,7 +30,7 @@ public class Main {
         } catch (IOException | InvalidCatalogException | InvalidDocumentException e) {
             e.printStackTrace();
         }
-
+*/
     }
 
     private void testCreateSave() throws IOException {
@@ -48,11 +53,11 @@ public class Main {
         assert catalog != null;
         Document document1 = catalog.findByID("java1");
         Document document2 = catalog.findByID("java2");
-        Document document3 = catalog.findByID("java3");
+        //Document document3 = catalog.findByID("java3");
 
         CatalogUtil.view(document1);
         CatalogUtil.view(document2);
-        CatalogUtil.view(document3);
+        //CatalogUtil.view(document3);
 
     }
 
