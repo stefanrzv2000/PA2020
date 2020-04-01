@@ -1,6 +1,8 @@
 package sample.compulsory;
 
 import sample.Controller;
+import sample.optional.Time;
+import sample.optional.TimeKeeper;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -25,6 +27,9 @@ public class Game {
     }
 
     public void start(){
+
+        TimeKeeper timeKeeper = new TimeKeeper(this,10);
+
         for (int i = 0; i < players.size()-1; i++){
             players.get(i).setNext(players.get(i+1));
         }
@@ -37,6 +42,8 @@ public class Game {
             t[i] = new Thread(players.get(i));
             t[i].start();
         }
+
+        new Thread(timeKeeper).start();
 
         try {
             sleep(200);
@@ -90,5 +97,9 @@ public class Game {
 
     public void setController(Controller controller) {
         this.controller = controller;
+    }
+
+    public void setOver(boolean over) {
+        this.over = over;
     }
 }

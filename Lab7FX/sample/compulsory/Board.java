@@ -13,7 +13,7 @@ public class Board {
         this.size = size;
         tokens = new ArrayList<>();
         for(int i = 0; i < size; i ++){
-            tokens.add(new Token(i));
+            tokens.add(new Token(i+1));
         }
     }
 

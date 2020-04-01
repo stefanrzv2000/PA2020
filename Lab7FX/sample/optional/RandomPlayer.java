@@ -17,7 +17,7 @@ public class RandomPlayer extends Player {
         System.out.println("Player " + name + " is in the game! The next player is " + next.getName() + ".");
 
 
-        while(game.getBoard().getTokens().size() != 0){
+        while(game.getBoard().getTokens().size() != 0 & !game.isOver()){
 
             if(!takeTurn()) break;
 
@@ -37,6 +37,9 @@ public class RandomPlayer extends Player {
             }
         }
         int n = game.getBoard().getTokens().size();
+
+        if(n == 0 | game.isOver()) { return false; }
+
         System.out.println(name + ": I have received permission to take my turn. " +
                 "There are " + n + " tokens left.");
         try {
@@ -45,7 +48,6 @@ public class RandomPlayer extends Player {
             e.printStackTrace();
         }
 
-        if(n == 0) { return false; }
         var t = getTokenFromBoard((int)(Math.random()*game.getBoard().getTokens().size()));
         System.out.println("Player " + name + " has taken the token " + t
                 + ", " + game.getBoard().getTokens().size() + " tokens left.");

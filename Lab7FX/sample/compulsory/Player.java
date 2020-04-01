@@ -68,6 +68,7 @@ public abstract class Player implements Runnable {
         active = true;
         if(myPane != null){
             game.getController().setActive(myPane);
+            //game.getController().showTime();
         }
         notifyAll();
 

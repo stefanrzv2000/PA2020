@@ -21,6 +21,7 @@ import java.util.stream.IntStream;
 public class Controller implements Initializable {
 
     public static Game game;
+    public static Time time;
 
     String ACTIVEPLAYER = "-fx-background-color: ccffcc; -fx-border-color: aaffaa; -fx-border-width: 3; -fx-border-radius: 10;";
     String INACTIVEPLAYER = "-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;";
@@ -31,6 +32,8 @@ public class Controller implements Initializable {
     Label player1Label, player2Label, player3Label, player4Label, player5Label, player6Label;
     @FXML
     Canvas canvas;
+    @FXML
+    Label timeLabel;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -43,7 +46,7 @@ public class Controller implements Initializable {
             pane.setVisible(false);
         }
 
-        Board board = new Board(30);
+        Board board = new Board(100);
 
         game = new Game(this);
 
@@ -51,6 +54,9 @@ public class Controller implements Initializable {
 
         game.addPlayer(new RandomPlayer("Mihai"));
         game.addPlayer(new SmartPlayer("Ioan"));
+        game.addPlayer(new SmartPlayer("Sorin"));
+        game.addPlayer(new SmartPlayer("Florin"));
+        game.addPlayer(new SmartPlayer("Alex"));
         game.addPlayer(new RandomPlayer("Andrei"));
 
         for(int i = 0; i < game.getPlayers().size(); i++){
@@ -72,9 +78,9 @@ public class Controller implements Initializable {
         double w = canvas.getWidth();
 
         int nr = board.getSize();
-        int rows = (int)Math.sqrt(nr) + 1;
+        int rows = (int)Math.sqrt(nr-1) + 1;
 
-        double h0 = h/(rows-1);
+        double h0 = h/(rows);
         double w0 = h/(rows-1);
 
         double size = Math.min(h0,w0)*2.0/5.0;
@@ -92,9 +98,7 @@ public class Controller implements Initializable {
         }
     }
 
-    public void setActive(Pane pane){
-        pane.setStyle(ACTIVEPLAYER);
-    }
+    public void setActive(Pane pane){ pane.setStyle(ACTIVEPLAYER); }
 
     public void setInactive(Pane pane){
         pane.setStyle(INACTIVEPLAYER);
@@ -138,4 +142,16 @@ public class Controller implements Initializable {
 
         graphicsContext.fillOval(centerX-size,centerY-size,2*size,2*size);
     }
+
+    public synchronized void setTime(int totalTime){
+        time.setTime(totalTime);
+        System.out.println("Controller: time = " + time.timeToString());
+        showTime();
+    }
+
+
+    public synchronized void showTime(){
+        timeLabel.setText(time.timeToString());
+    }
+
 }
