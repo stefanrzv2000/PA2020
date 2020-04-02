@@ -12,6 +12,8 @@ public class ManualPlayer extends Player {
     public ManualPlayer(String name){
         this.name = name;
         this.type = PlayerType.MANUAL;
+        this.id = totalId;
+        totalId++;
     }
 
     @Override
@@ -24,12 +26,12 @@ public class ManualPlayer extends Player {
                 e.printStackTrace();
             }
         }
-        int n = game.getBoard().getTokens().size();
+        int nrTokensLeft = game.getBoard().getTokens().size();
 
-        if(n == 0 | game.isOver()) { return false; }
+        if(nrTokensLeft == 0 | game.isOver()) { return false; }
 
         //System.out.println(name + ": I have received permission to take my turn. " +
-        //        "There are " + n + " tokens left.");
+        //        "There are " + nrTokensLeft + " tokens left.");
 
         selectedToken = -1;
 
@@ -39,12 +41,11 @@ public class ManualPlayer extends Player {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            //System.out.println("DEBUG:                 " + name + ": selectedToken = " + selectedToken);
         }
         if(game.isOver()) return false;
 
 
-        var t = getTokenFromBoard(selectedToken);
+        var token = getTokenFromBoard(selectedToken);
 
         //System.out.println("Player " + name + " has taken the token " + t
         //        + ", " + game.getBoard().getTokens().size() + " tokens left.");

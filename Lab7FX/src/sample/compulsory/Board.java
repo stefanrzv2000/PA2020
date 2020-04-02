@@ -41,11 +41,11 @@ public class Board {
     public synchronized Token giveToken(int index, Player player){
         if(index >= tokens.size()) return null;
         if(tokens.get(index).getOwner() == null) {
-            Token t = tokens.get(index);
-            t.setOwner(player);
+            Token token = tokens.get(index);
+            token.setOwner(player);
             tokens.remove(index);
-            game.getController().unDrawFigure(t.getFigure());
-            return t;
+            game.getController().unDrawFigure(token.getFigure());
+            return token;
         }
         return null;
     }

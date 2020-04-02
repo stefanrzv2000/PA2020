@@ -3,8 +3,7 @@ package sample.optional;
 
 import sample.compulsory.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 import static java.lang.Thread.sleep;
 
@@ -13,6 +12,8 @@ public class SmartPlayer extends Player {
     public SmartPlayer(String name){
         this.name = name;
         this.type = PlayerType.SMART;
+        this.id = totalId;
+        totalId++;
     }
 
 
@@ -26,9 +27,9 @@ public class SmartPlayer extends Player {
                 e.printStackTrace();
             }
         }
-        int n = game.getBoard().getTokens().size();
+        int nrTokensLeft = game.getBoard().getTokens().size();
 
-        if(n == 0 | game.isOver()) { return false; }
+        if(nrTokensLeft == 0 | game.isOver()) { return false; }
 
         //System.out.println(name + ": I have received permission to take my turn. " +
         //        "There are " + n + " tokens left.");
@@ -41,9 +42,7 @@ public class SmartPlayer extends Player {
         if(game.isOver()) { return false; }
 
         /*
-        //var t = getTokenFromBoard((int)(Math.random()*game.getBoard().getTokens().size()));
-
-
+        //FIRST METHOD
         List<Token> shuffled = new ArrayList<>(game.getBoard().getTokens());
         List<Token> have = new ArrayList<>(tokens);
 
@@ -64,8 +63,23 @@ public class SmartPlayer extends Player {
         }
         */
 
-        Token t;
-        int tokenVal = getBestTokenVal(tokens, 4);
+        Token chosenToken;
+
+        double chance = Math.random();
+
+        boolean attack = false;
+        if (chance < 0.66){
+            attack = true;
+        }
+
+        int tokenVal;
+        if (attack) {
+            tokenVal = getBestTokenVal(tokens, 2);
+        }
+        else {
+            tokenVal = getBestBlockTokenVal();
+        }
+
         if (tokenVal != -1) {
 
             int index = 0;
@@ -76,10 +90,30 @@ public class SmartPlayer extends Player {
                 index++;
             }
 
-            t = getTokenFromBoard(index);
+            chosenToken = getTokenFromBoard(index);
         }
         else{
-            t = getTokenFromBoard((int)(Math.random()*game.getBoard().getTokens().size()));
+            if (attack){
+                tokenVal = getBestBlockTokenVal();
+            }
+            else {
+                tokenVal = getBestTokenVal(tokens, 2);
+            }
+
+            if (tokenVal != -1){
+                int index = 0;
+                for (Token token : game.getBoard().getTokens()) {
+                    if (token.getValue() == tokenVal) {
+                        break;
+                    }
+                    index++;
+                }
+
+                chosenToken = getTokenFromBoard(index);
+            }
+            else {
+                chosenToken = getTokenFromBoard((int)(Math.random()*game.getBoard().getTokens().size()));
+            }
         }
 
         //System.out.println("Player " + name + " has taken the token " + t
@@ -90,6 +124,8 @@ public class SmartPlayer extends Player {
         return true;
     }
 
+
+    //bad method
     public Token getBestToken(List<Token> chosenTokens, List<Token> remainedTokens, int depth, int stopDepth) {
         if (depth >= stopDepth) {
             return null;
@@ -129,7 +165,7 @@ public class SmartPlayer extends Player {
         return null;
     }
 
-    public int getBestTokenVal(List<Token> givenTokens, int consideredMoves){
+    private int getBestTokenVal(List<Token> givenTokens, int consideredMoves){
         int maxPossibleScore = calculateScore(givenTokens);
 
         int[] frequence = new int[totalTokens];
@@ -181,5 +217,27 @@ public class SmartPlayer extends Player {
             tokenVal = bestOptions.get(randomTokenIndex);
         }
         return tokenVal;
+    }
+
+    private int getBestBlockTokenVal(){
+        List<Player> others = new ArrayList<>();
+
+        for (Player player : game.getPlayers()){
+            if (this == player){
+                continue;
+            }
+            others.add(player);
+        }
+
+        others.sort(Comparator.comparingInt(Player::calculateScore));
+
+        int tokenValue = -1;
+        for (Player player : others){
+            tokenValue = getBestTokenVal(player.getTokens(), 1);
+            if (tokenValue != -1){
+                break;
+            }
+        }
+        return tokenValue;
     }
 }

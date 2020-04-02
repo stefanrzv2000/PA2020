@@ -43,12 +43,12 @@ public class Game {
         }
         players.get(players.size()-1).setNext(players.get(0));
 
-        Thread[] t = new Thread[players.size()];
+        Thread[] threads = new Thread[players.size()];
 
         for (int i = 0; i < players.size(); i ++){
             players.get(i).setInActive();
-            t[i] = new Thread(players.get(i));
-            t[i].start();
+            threads[i] = new Thread(players.get(i));
+            threads[i].start();
         }
 
         new Thread(timeKeeper).start();
@@ -62,7 +62,7 @@ public class Game {
         currentPlayer = players.get(0);
         players.get(0).setActive();
 
-        for(var thread: t){
+        for(var thread : threads){
             try {
                 thread.join();
             } catch (InterruptedException e) {

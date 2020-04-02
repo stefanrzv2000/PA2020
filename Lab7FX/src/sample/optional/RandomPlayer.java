@@ -9,6 +9,8 @@ public class RandomPlayer extends Player {
     public RandomPlayer(String name){
         this.name = name;
         this.type = PlayerType.RANDOM;
+        this.id = totalId;
+        totalId++;
     }
 
     @Override
@@ -21,9 +23,9 @@ public class RandomPlayer extends Player {
                 e.printStackTrace();
             }
         }
-        int n = game.getBoard().getTokens().size();
+        int nrTokensLeft = game.getBoard().getTokens().size();
 
-        if(n == 0 | game.isOver()) { return false; }
+        if(nrTokensLeft == 0 | game.isOver()) { return false; }
 
         //System.out.println(name + ": I have received permission to take my turn. " +
         //        "There are " + n + " tokens left.");

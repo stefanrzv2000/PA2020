@@ -25,6 +25,7 @@ public class Main extends Application {
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root));
         new Thread(()->Controller.game.start()).start();
+
         primaryStage.show();
     }
 

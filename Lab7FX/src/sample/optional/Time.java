@@ -22,8 +22,8 @@ public class Time {
     }
 
 
-    private String digital(int n){
-        return String.valueOf(n/10%10) + n % 10;
+    private String digital(int number){
+        return String.valueOf(number/10%10) + number % 10;
     }
 
     public String timeToString() {

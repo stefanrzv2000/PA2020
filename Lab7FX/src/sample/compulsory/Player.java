@@ -24,6 +24,9 @@ public abstract class Player implements Runnable {
 
     protected int totalTokens;
 
+    protected int id;
+
+    protected static int totalId;
 
     public Game getGame() {
         return game;
@@ -59,15 +62,6 @@ public abstract class Player implements Runnable {
     }
 
     public synchronized void setActive(){
-        /*
-        while (active) {
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-         */
         active = true;
         if(myPane != null){
             game.getController().setActive(myPane);
@@ -161,30 +155,27 @@ public abstract class Player implements Runnable {
 
     @Override
     public final void run() {
-
         totalTokens = game.getBoard().getSize();
-
         //System.out.println("Player " + name + " is in the game! The next player is " + next.getName() + ".");
-
-
         while(game.getBoard().getTokens().size() != 0 & !game.isOver()){
-
-            if(!takeTurn()) break;
-
-            int score = calculateScore();
-
-            if(score >= game.getMaxScore()){
-                System.out.println("\nCongratulations, " + name + ", you reached " + score + " points and you have WON the game!\n");
-
-                game.setOver(true);
+            if(!takeTurn()) {
+                break;
             }
 
+            int score = calculateScore();
+            if(score >= game.getMaxScore()){
+                System.out.println("\nCongratulations, " + name + ", you reached " + score + " points and you have WON the game!\n");
+                game.setOver(true);
+            }
         }
-
         next.setActive();
     }
 
     public PlayerType getType() {
         return type;
+    }
+
+    public int getId() {
+        return id;
     }
 }

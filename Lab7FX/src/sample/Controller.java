@@ -24,15 +24,15 @@ import java.util.stream.IntStream;
 
 public class Controller implements Initializable {
 
-    private int boardSize = 100;
-    private int maxScore = 5;
-    private int timeLimit = 30;
+    private int boardSize = 30;
+    private int maxScore = 6;
+    private int timeLimit = 10;
 
     public static Game game;
     public static Time time;
 
-    String ACTIVEPLAYER = "-fx-background-color: ccffcc; -fx-border-color: aaffaa; -fx-border-width: 3; -fx-border-radius: 10;";
-    String INACTIVEPLAYER = "-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;";
+    String ACTIVE_PLAYER = "-fx-background-color: ccffcc; -fx-border-color: aaffaa; -fx-border-width: 3; -fx-border-radius: 10;";
+    String INACTIVE_PLAYER = "-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;";
 
     @FXML
     Pane Player1Pane, Player2Pane, Player3Pane, Player4Pane, Player5Pane, Player6Pane;
@@ -42,7 +42,6 @@ public class Controller implements Initializable {
     Canvas canvas;
     @FXML
     Label timeLabel;
-
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -65,11 +64,8 @@ public class Controller implements Initializable {
         game.addPlayer(new SmartPlayer("Ioan"));
         game.addPlayer(new ManualPlayer("Sorin"));
         game.addPlayer(new SmartPlayer("Florin"));
-        game.addPlayer(new SmartPlayer("Alex"));
+        //game.addPlayer(new SmartPlayer("Alex"));
         game.addPlayer(new RandomPlayer("Andrei"));
-        game.addPlayer(new RandomPlayer("Andreiii"));
-        game.addPlayer(new RandomPlayer("Andreiii"));
-        game.addPlayer(new RandomPlayer("Andreiii"));
 
         for(int i = 0; i < game.getPlayers().size(); i++){
             game.getPlayers().get(i).setMyPane(panes[i]);
@@ -86,34 +82,40 @@ public class Controller implements Initializable {
 
     private void initBoard(Board board){
 
-        double h = canvas.getHeight();
-        double w = canvas.getWidth();
+        double height = canvas.getHeight();
+        double width = canvas.getWidth();
 
         int nr = board.getSize();
         int rows = (int)Math.sqrt(nr-1) + 1;
 
-        double h0 = h/(rows);
-        double w0 = w/(rows);
+        double figureHeight = height/(rows);
+        double figureWidth = width/(rows);
 
-        double size = Math.min(h0,w0)*2.0/5.0;
+        double size = Math.min(figureHeight, figureWidth)*2.0/5.0;
 
         var tokens = board.getTokens();
 
         for(int i = 0; i < rows; i++){
             for(int j = 0; j < rows & i*rows+j < tokens.size(); j++){
                 var token = tokens.get(i*rows+j);
-                token.setFigure(new Figure(w0/2 + w0*j,h0/2 + h0*i, size, 6,
-                        new Color(Math.random()*0.5 + 0.3,Math.random()*0.5 + 0.3,Math.random()*0.5 + 0.3,1),
-                        String.valueOf(token.getValue())));
+                token.setFigure(new Figure(
+                            figureWidth/2 + figureWidth*j,
+                            figureHeight/2 + figureHeight*i,
+                            size,
+                            6,
+                            new Color(Math.random()*0.5 + 0.3,Math.random()*0.5 + 0.3,Math.random()*0.5 + 0.3,1),
+                            String.valueOf(token.getValue())
+                        )
+                );
                 drawFigure(token.getFigure());
             }
         }
     }
 
-    public void setActive(Pane pane){ pane.setStyle(ACTIVEPLAYER); }
+    public void setActive(Pane pane){ pane.setStyle(ACTIVE_PLAYER); }
 
     public void setInactive(Pane pane){
-        pane.setStyle(INACTIVEPLAYER);
+        pane.setStyle(INACTIVE_PLAYER);
     }
 
     public void drawFigure(Figure figure){
@@ -166,7 +168,7 @@ public class Controller implements Initializable {
         timeLabel.setText(time.timeToString());
     }
 
-    public void onCanvasClicked(MouseEvent e){
+    public void onCanvasClicked(MouseEvent event){
 
         Player player = game.getCurrentPlayer();
 
@@ -174,19 +176,19 @@ public class Controller implements Initializable {
 
         if(player.getType()!= PlayerType.MANUAL | game.isOver()) return;
 
-        double x = e.getX();
-        double y = e.getY();
+        double x = event.getX();
+        double y = event.getY();
 
         //System.out.println("Clicked: x = " + x + " y = " + y);
 
         for(int i = 0; i < game.getBoard().getTokens().size(); i++){
             var token = game.getBoard().getTokens().get(i);
 
-            double cx = token.getFigure().getX();
-            double cy = token.getFigure().getY();
+            double centerX = token.getFigure().getX();
+            double centerY = token.getFigure().getY();
             double size = token.getFigure().getSize();
 
-            if((cx-x)*(cx-x) + (cy-y)*(cy-y) < size*size){
+            if((centerX-x)*(centerX-x) + (centerY-y)*(centerY-y) < size*size){
                 //System.out.println("cx = " + cx + " cy = " + cy );
                 ((ManualPlayer)player).setSelectedToken(i);
                 //System.out.println("Am gasit i = " + i);
