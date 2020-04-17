@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="Bag_pl_in_PU">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <mapping-file>FuckAlbums.xml</mapping-file>
+        <mapping-file>FuckArtists.xml</mapping-file>
+        <mapping-file>FuckCharts.xml</mapping-file>
+        <mapping-file>FuckClasaments.xml</mapping-file>
+        <mapping-file>FuckGenres.xml</mapping-file>
+        <class>com.entities.Genre</class>
+        <class>com.entities.Artist</class>
+        <class>com.entities.Album</class>
+        <class>com.entities.Chart</class>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost/MusicAlbums?useLegacyDatetimeCode=false&amp;serverTimezone=America/New_York&amp;useSSL=false"/>
+            <property name="hibernate.connection.username" value="dba"/>
+            <property name="hibernate.connection.password" value="sql"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format-sql" value="true"/>
+            <property name="hibernate.hbm2dll.auto" value="update"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+        </properties>
+
+    </persistence-unit>
+
+
+</persistence>

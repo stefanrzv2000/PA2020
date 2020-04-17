@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.entities.Chart">
+        <table name="charts" schema="MusicAlbums" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <basic name="name">
+                <column name="name" length="100"/>
+            </basic>
+            <basic name="places">
+                <column name="places" precision="11"/>
+            </basic>
+            <basic name="active">
+                <column name="active" nullable="false" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

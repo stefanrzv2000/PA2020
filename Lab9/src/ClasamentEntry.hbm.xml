@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.entities.ClasamentEntry" table="clasaments" schema="MusicAlbums">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="chartId">
+            <column name="chart_id" sql-type="int(11)"/>
+        </property>
+        <property name="albumId">
+            <column name="album_id" sql-type="int(11)"/>
+        </property>
+        <property name="artistId">
+            <column name="artist_id" sql-type="int(11)"/>
+        </property>
+        <property name="place">
+            <column name="place" sql-type="int(11)"/>
+        </property>
+    </class>
+</hibernate-mapping>

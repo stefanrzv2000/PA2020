@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.entities.ClasamentEntry">
+        <table name="clasaments" schema="MusicAlbums" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <basic name="chartId">
+                <column name="chart_id" precision="11"/>
+            </basic>
+            <basic name="albumId">
+                <column name="album_id" precision="11"/>
+            </basic>
+            <basic name="artistId">
+                <column name="artist_id" precision="11"/>
+            </basic>
+            <basic name="place">
+                <column name="place" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
