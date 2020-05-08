@@ -1,0 +1,1247 @@
+[2020-05-08 00:56:59] Server up - listening to 192.168.100.6:3579
+[2020-05-08 00:58:30] Accepted client 0
+[2020-05-08 00:58:30] Thread 0: Starting work
+[2020-05-08 00:58:44] Thread 0: command: create stefy 15 n
+[2020-05-08 00:58:44] Thread 0: response: create orchid668
+[2020-05-08 00:59:02] Thread 0: command: ok
+[2020-05-08 00:59:06] Accepted client 1
+[2020-05-08 00:59:06] Thread 1: Starting work
+[2020-05-08 00:59:19] Thread 1: command: join orchid668 razvan
+[2020-05-08 00:59:19] Thread 0: response: player razvan
+[2020-05-08 00:59:19] Thread 1: response: join orchid668 stefy 15
+[2020-05-08 00:59:20] Thread 1: command: piece -2 -2
+[2020-05-08 00:59:26] Thread 0: command: piece 5 2
+[2020-05-08 00:59:26] Thread 1: response: piece 5 2
+[2020-05-08 00:59:28] Thread 1: command: piece 6 4
+[2020-05-08 00:59:28] Thread 0: response: piece 6 4
+[2020-05-08 00:59:29] Thread 0: command: piece 6 3
+[2020-05-08 00:59:29] Thread 1: response: piece 6 3
+[2020-05-08 00:59:30] Thread 1: command: piece 5 4
+[2020-05-08 00:59:30] Thread 0: response: piece 5 4
+[2020-05-08 00:59:33] Thread 0: command: piece 5 3
+[2020-05-08 00:59:33] Thread 1: response: piece 5 3
+[2020-05-08 00:59:34] Thread 1: command: piece 7 4
+[2020-05-08 00:59:34] Thread 0: response: piece 7 4
+[2020-05-08 00:59:36] Thread 0: command: piece 4 4
+[2020-05-08 00:59:36] Thread 1: response: piece 4 4
+[2020-05-08 00:59:39] Thread 1: command: piece 6 2
+[2020-05-08 00:59:40] Thread 0: response: piece 6 2
+[2020-05-08 00:59:42] Thread 0: command: piece 7 3
+[2020-05-08 00:59:42] Thread 1: response: piece 7 3
+[2020-05-08 00:59:44] Thread 1: command: piece 4 3
+[2020-05-08 00:59:44] Thread 0: response: piece 4 3
+[2020-05-08 00:59:47] Thread 0: command: piece 3 2
+[2020-05-08 00:59:47] Thread 1: response: piece 3 2
+[2020-05-08 00:59:50] Thread 1: command: piece 8 4
+[2020-05-08 00:59:50] Thread 0: response: piece 8 4
+[2020-05-08 00:59:52] Thread 0: command: piece 9 4
+[2020-05-08 00:59:52] Thread 1: response: piece 9 4
+[2020-05-08 00:59:54] Thread 1: command: piece 8 3
+[2020-05-08 00:59:54] Thread 0: response: piece 8 3
+[2020-05-08 01:00:01] Thread 0: command: piece 3 5
+[2020-05-08 01:00:01] Thread 1: response: piece 3 5
+[2020-05-08 01:00:06] Thread 1: command: piece 6 5
+[2020-05-08 01:00:06] Thread 0: response: piece 6 5
+[2020-05-08 01:00:09] Thread 0: command: piece 5 6
+[2020-05-08 01:00:09] Thread 1: response: piece 5 6
+[2020-05-08 01:00:11] Thread 1: command: piece 9 2
+[2020-05-08 01:00:11] Thread 0: response: piece 9 2
+[2020-05-08 01:00:12] Thread 0: command: piece 10 1
+[2020-05-08 01:00:12] Thread 1: response: piece 10 1
+[2020-05-08 01:00:19] Thread 1: command: piece 7 5
+[2020-05-08 01:00:19] Thread 0: response: piece 7 5
+[2020-05-08 01:00:22] Thread 0: command: piece 8 5
+[2020-05-08 01:00:22] Thread 1: response: piece 8 5
+[2020-05-08 01:00:24] Thread 1: command: piece 9 3
+[2020-05-08 01:00:24] Thread 0: response: piece 9 3
+[2020-05-08 01:00:28] Thread 0: command: piece 10 2
+[2020-05-08 01:00:28] Thread 1: response: piece 10 2
+[2020-05-08 01:00:30] Thread 1: command: piece 6 6
+[2020-05-08 01:00:30] Thread 0: response: piece 6 6
+[2020-05-08 01:00:32] Thread 0: command: piece 5 7
+[2020-05-08 01:00:32] Thread 1: response: piece 5 7
+[2020-05-08 01:00:36] Thread 1: command: piece 6 7
+[2020-05-08 01:00:36] Thread 0: response: piece 6 7
+[2020-05-08 01:00:38] Thread 0: command: piece 6 8
+[2020-05-08 01:00:38] Thread 1: response: piece 6 8
+[2020-05-08 01:00:40] Thread 1: command: piece 7 6
+[2020-05-08 01:00:40] Thread 0: response: piece 7 6
+[2020-05-08 01:00:43] Thread 0: command: piece 8 7
+[2020-05-08 01:00:43] Thread 1: response: piece 8 7
+[2020-05-08 01:00:44] Thread 1: command: piece 7 7
+[2020-05-08 01:00:44] Thread 0: response: piece 7 7
+[2020-05-08 01:00:46] Thread 0: command: piece 7 8
+[2020-05-08 01:00:46] Thread 1: response: piece 7 8
+[2020-05-08 01:01:05] Thread 1: command: piece 4 6
+[2020-05-08 01:01:05] Thread 0: response: piece 4 6
+[2020-05-08 01:01:14] Thread 0: command: piece 5 8
+[2020-05-08 01:01:14] Thread 1: response: piece 5 8
+[2020-05-08 01:01:20] Thread 1: command: piece 4 8
+[2020-05-08 01:01:20] Thread 0: response: piece 4 8
+[2020-05-08 01:01:21] Thread 0: command: piece 5 9
+[2020-05-08 01:01:21] Thread 1: response: piece 5 9
+[2020-05-08 01:01:24] Thread 1: command: piece 5 10
+[2020-05-08 01:01:24] Thread 0: response: piece 5 10
+[2020-05-08 01:01:25] Thread 0: command: piece 5 5 win
+[2020-05-08 01:01:25] Thread 1: response: piece 5 5 win
+[2020-05-08 13:08:52] Server up - listening to 192.168.100.6:3579
+[2020-05-08 13:08:58] Accepted client 0
+[2020-05-08 13:08:58] Thread 0: Starting work
+[2020-05-08 13:09:08] Thread 0: command: create stefy 10 n
+[2020-05-08 13:09:08] Thread 0: response: create ivory575
+[2020-05-08 13:09:11] Thread 0: command: ok
+[2020-05-08 13:09:17] Accepted client 1
+[2020-05-08 13:09:17] Thread 1: Starting work
+[2020-05-08 13:09:29] Thread 1: command: join ivory575 razvan
+[2020-05-08 13:09:29] Thread 1: response: join ivory575 stefy 10
+[2020-05-08 13:09:29] Thread 0: response: player razvan
+[2020-05-08 13:09:30] Thread 1: command: piece -2 -2
+[2020-05-08 13:09:34] Thread 0: command: piece 3 2
+[2020-05-08 13:09:34] Thread 1: response: piece 3 2
+[2020-05-08 13:09:35] Thread 1: command: piece 4 2
+[2020-05-08 13:09:35] Thread 0: response: piece 4 2
+[2020-05-08 13:09:36] Thread 0: command: piece 3 3
+[2020-05-08 13:09:36] Thread 1: response: piece 3 3
+[2020-05-08 13:09:37] Thread 1: command: piece 4 3
+[2020-05-08 13:09:37] Thread 0: response: piece 4 3
+[2020-05-08 13:09:38] Thread 0: command: piece 3 4
+[2020-05-08 13:09:38] Thread 1: response: piece 3 4
+[2020-05-08 13:09:39] Thread 1: command: piece 4 4
+[2020-05-08 13:09:39] Thread 0: response: piece 4 4
+[2020-05-08 13:09:40] Thread 0: command: piece 3 5
+[2020-05-08 13:09:40] Thread 1: response: piece 3 5
+[2020-05-08 13:09:41] Thread 1: command: piece 4 5
+[2020-05-08 13:09:41] Thread 0: response: piece 4 5
+[2020-05-08 13:09:42] Thread 0: command: piece 3 6
+[2020-05-08 13:09:43] Thread 1: response: piece 3 6 win
+[2020-05-08 13:09:44] Thread 1: command: piece 4 6
+[2020-05-08 13:09:44] Thread 0: response: piece 4 6 win
+[2020-05-08 13:09:46] Thread 0: command: piece 3 7
+[2020-05-08 13:09:46] Thread 1: response: piece 3 7 win
+[2020-05-08 13:09:47] Thread 1: command: piece 4 7
+[2020-05-08 13:09:47] Thread 0: response: piece 4 7 win
+[2020-05-08 13:09:48] Thread 0: command: piece 3 8
+[2020-05-08 13:09:48] Thread 1: response: piece 3 8 win
+[2020-05-08 13:09:50] Thread 1: command: piece 4 8
+[2020-05-08 13:09:50] Thread 0: response: piece 4 8 win
+[2020-05-08 13:10:04] Thread 0: command: piece -3 -3
+[2020-05-08 13:10:04] Thread 0: response: exit -3
+[2020-05-08 13:10:04] Thread 0: response: exit
+[2020-05-08 13:10:04] Thread 0: Finished working
+[2020-05-08 13:10:04] Thread 1: response: piece -3 -3 win
+[2020-05-08 13:10:04] Thread 1: response: exit
+[2020-05-08 13:10:04] Thread 1: Finished working
+[2020-05-08 13:15:35] Accepted client 2
+[2020-05-08 13:15:35] Thread 2: Starting work
+[2020-05-08 13:15:41] Thread 2: command: create stefy 10 n
+[2020-05-08 13:15:41] Thread 2: response: create sky_blue867
+[2020-05-08 13:15:47] Accepted client 3
+[2020-05-08 13:15:47] Thread 3: Starting work
+[2020-05-08 13:16:02] Thread 3: command: join sky_blue867 razvan
+[2020-05-08 13:16:02] Thread 3: response: join sky_blue867 stefy 10
+[2020-05-08 13:18:13] Accepted client 4
+[2020-05-08 13:18:13] Thread 4: Starting work
+[2020-05-08 13:18:48] Thread 4: command: create stefy 10 n
+[2020-05-08 13:18:48] Thread 4: response: create olive453
+[2020-05-08 13:18:51] Thread 4: command: ok
+[2020-05-08 13:18:53] Accepted client 5
+[2020-05-08 13:18:53] Thread 5: Starting work
+[2020-05-08 13:19:03] Thread 5: command: join olive453 razvan
+[2020-05-08 13:19:03] Thread 5: response: join olive453 stefy 10
+[2020-05-08 13:19:03] Thread 4: response: player razvan
+[2020-05-08 13:19:04] Thread 5: command: piece -2 -2
+[2020-05-08 13:19:08] Thread 4: command: piece 3 2
+[2020-05-08 13:19:08] Thread 5: response: piece 3 2
+[2020-05-08 13:19:09] Thread 5: command: piece 4 2
+[2020-05-08 13:19:09] Thread 4: response: piece 4 2
+[2020-05-08 13:19:10] Thread 4: command: piece 3 3
+[2020-05-08 13:19:10] Thread 5: response: piece 3 3
+[2020-05-08 13:19:11] Thread 5: command: piece 4 3
+[2020-05-08 13:19:11] Thread 4: response: piece 4 3
+[2020-05-08 13:19:12] Thread 4: command: piece -3 -3
+[2020-05-08 13:19:12] Thread 4: response: exit -3
+[2020-05-08 13:19:12] Thread 4: response: exit
+[2020-05-08 13:19:12] Thread 4: Finished working
+[2020-05-08 13:19:12] Thread 5: response: piece -3 -3
+[2020-05-08 13:19:12] Thread 5: response: exit
+[2020-05-08 13:19:12] Thread 5: Finished working
+[2020-05-08 13:25:05] Accepted client 6
+[2020-05-08 13:25:05] Thread 6: Starting work
+[2020-05-08 13:25:12] Thread 6: command: create stefy 10 n
+[2020-05-08 13:25:12] Thread 6: response: create azure692
+[2020-05-08 13:25:15] Thread 6: command: ok
+[2020-05-08 13:25:17] Accepted client 7
+[2020-05-08 13:25:17] Thread 7: Starting work
+[2020-05-08 13:25:25] Thread 7: command: join azure692 razvan
+[2020-05-08 13:25:25] Thread 7: response: join azure692 stefy 10
+[2020-05-08 13:25:25] Thread 6: response: player razvan
+[2020-05-08 13:25:26] Thread 7: command: piece -2 -2
+[2020-05-08 13:25:30] Thread 6: command: piece 4 1
+[2020-05-08 13:25:30] Thread 7: response: piece 4 1
+[2020-05-08 13:25:32] Thread 7: command: piece 5 1
+[2020-05-08 13:25:32] Thread 6: response: piece 5 1
+[2020-05-08 13:25:33] Thread 6: command: piece 4 2
+[2020-05-08 13:25:33] Thread 7: response: piece 4 2
+[2020-05-08 13:25:34] Thread 7: command: piece 5 2
+[2020-05-08 13:25:34] Thread 6: response: piece 5 2
+[2020-05-08 13:25:36] Thread 6: command: piece -3 -3
+[2020-05-08 13:25:36] Thread 6: response: exit -3
+[2020-05-08 13:25:36] Thread 6: response: exit
+[2020-05-08 13:25:36] Thread 6: Finished working
+[2020-05-08 13:25:36] Thread 7: response: piece -3 -3
+[2020-05-08 13:25:36] Thread 7: response: exit
+[2020-05-08 13:25:36] Thread 7: Finished working
+[2020-05-08 13:29:39] Accepted client 8
+[2020-05-08 13:29:39] Thread 8: Starting work
+[2020-05-08 13:29:46] Thread 8: command: create stefy 10 n
+[2020-05-08 13:29:46] Thread 8: response: create turquoise40
+[2020-05-08 13:29:49] Thread 8: command: ok
+[2020-05-08 13:29:52] Accepted client 9
+[2020-05-08 13:29:52] Thread 9: Starting work
+[2020-05-08 13:30:02] Thread 9: command: join turquoise40 razvan
+[2020-05-08 13:30:02] Thread 9: response: join turquoise40 stefy 10
+[2020-05-08 13:30:02] Thread 8: response: player razvan
+[2020-05-08 13:30:03] Thread 9: command: piece -2 -2
+[2020-05-08 13:30:08] Thread 8: command: piece 3 1
+[2020-05-08 13:30:08] Thread 9: response: piece 3 1
+[2020-05-08 13:30:09] Thread 9: command: piece 4 1
+[2020-05-08 13:30:09] Thread 8: response: piece 4 1
+[2020-05-08 13:30:10] Thread 8: command: piece -3 -3
+[2020-05-08 13:30:10] Thread 8: response: exit -3
+[2020-05-08 13:30:10] Thread 8: response: exit
+[2020-05-08 13:30:10] Thread 8: Finished working
+[2020-05-08 13:30:10] Thread 9: response: piece -3 -3
+[2020-05-08 13:30:10] Thread 9: response: exit
+[2020-05-08 13:30:10] Thread 9: Finished working
+[2020-05-08 13:33:09] Accepted client 10
+[2020-05-08 13:33:09] Thread 10: Starting work
+[2020-05-08 13:33:16] Thread 10: command: create stefy 10 n
+[2020-05-08 13:33:16] Thread 10: response: create sky_blue928
+[2020-05-08 13:33:18] Thread 10: command: ok
+[2020-05-08 13:33:21] Accepted client 11
+[2020-05-08 13:33:21] Thread 11: Starting work
+[2020-05-08 13:33:38] Thread 11: command: join sky_blue928 razvan
+[2020-05-08 13:33:38] Thread 11: response: join sky_blue928 stefy 10
+[2020-05-08 13:33:38] Thread 10: response: player razvan
+[2020-05-08 13:33:39] Thread 11: command: piece -2 -2
+[2020-05-08 13:33:42] Thread 10: command: piece 3 1
+[2020-05-08 13:33:42] Thread 11: response: piece 3 1
+[2020-05-08 13:33:43] Thread 11: command: piece 4 1
+[2020-05-08 13:33:43] Thread 10: response: piece 4 1
+[2020-05-08 13:33:45] Thread 10: command: piece -3 -3
+[2020-05-08 13:33:45] Thread 10: response: exit -3
+[2020-05-08 13:33:45] Thread 10: response: exit
+[2020-05-08 13:33:45] Thread 10: Finished working
+[2020-05-08 13:33:45] Thread 11: response: piece -3 -3
+[2020-05-08 13:33:45] Thread 11: response: exit
+[2020-05-08 13:33:45] Thread 11: Finished working
+[2020-05-08 13:36:44] Accepted client 12
+[2020-05-08 13:36:44] Thread 12: Starting work
+[2020-05-08 13:36:50] Thread 12: command: create stefy 10 n
+[2020-05-08 13:36:50] Thread 12: response: create maroon727
+[2020-05-08 13:36:54] Thread 12: command: ok
+[2020-05-08 13:36:56] Accepted client 13
+[2020-05-08 13:36:56] Thread 13: Starting work
+[2020-05-08 13:37:09] Thread 13: command: join maroon727 razvan
+[2020-05-08 13:37:09] Thread 13: response: join maroon727 stefy 10
+[2020-05-08 13:37:09] Thread 12: response: player razvan
+[2020-05-08 13:37:10] Thread 13: command: piece -2 -2
+[2020-05-08 13:37:14] Thread 12: command: piece 3 1
+[2020-05-08 13:37:14] Thread 13: response: piece 3 1
+[2020-05-08 13:37:16] Thread 13: command: piece 4 1
+[2020-05-08 13:37:16] Thread 12: response: piece 4 1
+[2020-05-08 13:37:18] Thread 12: command: piece -3 -3
+[2020-05-08 13:37:18] Thread 12: response: exit -3
+[2020-05-08 13:37:18] Thread 12: response: exit
+[2020-05-08 13:37:18] Thread 12: Finished working
+[2020-05-08 13:37:18] Thread 13: response: piece -3 -3
+[2020-05-08 13:37:18] Thread 13: response: exit
+[2020-05-08 13:37:18] Thread 13: Finished working
+[2020-05-08 13:38:17] Accepted client 14
+[2020-05-08 13:38:17] Thread 14: Starting work
+[2020-05-08 13:38:23] Thread 14: command: create stefy 10 n
+[2020-05-08 13:38:23] Thread 14: response: create yellow311
+[2020-05-08 13:38:25] Thread 14: command: ok
+[2020-05-08 13:38:28] Accepted client 15
+[2020-05-08 13:38:28] Thread 15: Starting work
+[2020-05-08 13:38:36] Thread 15: command: join yellow311 razvan
+[2020-05-08 13:38:36] Thread 15: response: join yellow311 stefy 10
+[2020-05-08 13:38:36] Thread 14: response: player razvan
+[2020-05-08 13:38:37] Thread 15: command: piece -2 -2
+[2020-05-08 13:38:41] Thread 14: command: piece 2 1
+[2020-05-08 13:38:41] Thread 15: response: piece 2 1
+[2020-05-08 13:38:42] Thread 15: command: piece 3 1
+[2020-05-08 13:38:42] Thread 14: response: piece 3 1
+[2020-05-08 13:38:43] Thread 14: command: piece 2 2
+[2020-05-08 13:38:43] Thread 15: response: piece 2 2
+[2020-05-08 13:38:44] Thread 15: command: piece 3 2
+[2020-05-08 13:38:44] Thread 14: response: piece 3 2
+[2020-05-08 13:38:46] Thread 14: command: piece -3 -3
+[2020-05-08 13:38:46] Thread 14: response: exit -3
+[2020-05-08 13:38:46] Thread 14: response: exit
+[2020-05-08 13:38:46] Thread 14: Finished working
+[2020-05-08 13:38:46] Thread 15: response: piece -3 -3
+[2020-05-08 13:38:46] Thread 15: response: exit
+[2020-05-08 13:38:46] Thread 15: Finished working
+[2020-05-08 13:40:54] Accepted client 16
+[2020-05-08 13:40:54] Thread 16: Starting work
+[2020-05-08 13:41:00] Thread 16: command: create stefy 10 n
+[2020-05-08 13:41:00] Thread 16: response: create sky_blue712
+[2020-05-08 13:41:02] Thread 16: command: ok
+[2020-05-08 13:41:03] Accepted client 17
+[2020-05-08 13:41:03] Thread 17: Starting work
+[2020-05-08 13:41:13] Thread 17: command: join sky_blue712 razvan
+[2020-05-08 13:41:13] Thread 17: response: join sky_blue712 stefy 10
+[2020-05-08 13:41:13] Thread 16: response: player razvan
+[2020-05-08 13:41:14] Thread 17: command: piece -2 -2
+[2020-05-08 13:41:17] Thread 16: command: piece 3 1
+[2020-05-08 13:41:17] Thread 17: response: piece 3 1
+[2020-05-08 13:41:19] Thread 17: command: piece 4 1
+[2020-05-08 13:41:19] Thread 16: response: piece 4 1
+[2020-05-08 13:41:20] Thread 16: command: piece -3 -3
+[2020-05-08 13:41:20] Thread 16: response: exit -3
+[2020-05-08 13:41:20] Thread 16: response: exit
+[2020-05-08 13:41:20] Thread 16: Finished working
+[2020-05-08 13:41:20] Thread 17: response: piece -3 -3
+[2020-05-08 13:41:20] Thread 17: response: exit
+[2020-05-08 13:41:20] Thread 17: Finished working
+[2020-05-08 13:42:44] Thread 18: Starting work
+[2020-05-08 13:42:44] Accepted client 18
+[2020-05-08 13:42:51] Thread 18: command: create stefy 10 n
+[2020-05-08 13:42:51] Thread 18: response: create pink954
+[2020-05-08 13:42:53] Thread 18: command: ok
+[2020-05-08 13:42:56] Accepted client 19
+[2020-05-08 13:42:56] Thread 19: Starting work
+[2020-05-08 13:43:07] Thread 19: command: join pink954 razvan
+[2020-05-08 13:43:07] Thread 19: response: join pink954 stefy 10
+[2020-05-08 13:43:07] Thread 18: response: player razvan
+[2020-05-08 13:43:08] Thread 19: command: piece -2 -2
+[2020-05-08 13:43:11] Thread 18: command: piece 3 1
+[2020-05-08 13:43:11] Thread 19: response: piece 3 1
+[2020-05-08 13:43:12] Thread 19: command: piece 7 1
+[2020-05-08 13:43:12] Thread 18: response: piece 7 1
+[2020-05-08 13:43:14] Thread 18: command: piece -3 -3
+[2020-05-08 13:43:14] Thread 18: response: exit -3
+[2020-05-08 13:43:14] Thread 18: response: exit
+[2020-05-08 13:43:14] Thread 18: Finished working
+[2020-05-08 13:43:14] Thread 19: response: piece -3 -3
+[2020-05-08 13:43:14] Thread 19: response: exit
+[2020-05-08 13:43:14] Thread 19: Finished working
+[2020-05-08 13:44:03] Accepted client 20
+[2020-05-08 13:44:03] Thread 20: Starting work
+[2020-05-08 13:44:09] Thread 20: command: create stefy 10 n
+[2020-05-08 13:44:09] Thread 20: response: create magenta572
+[2020-05-08 13:44:11] Thread 20: command: ok
+[2020-05-08 13:44:13] Accepted client 21
+[2020-05-08 13:44:13] Thread 21: Starting work
+[2020-05-08 13:44:22] Thread 21: command: join magenta572 razvan
+[2020-05-08 13:44:22] Thread 21: response: join magenta572 stefy 10
+[2020-05-08 13:44:22] Thread 20: response: player razvan
+[2020-05-08 13:44:23] Thread 21: command: piece -2 -2
+[2020-05-08 13:44:25] Thread 20: command: piece 3 1
+[2020-05-08 13:44:25] Thread 21: response: piece 3 1
+[2020-05-08 13:44:27] Thread 21: command: piece 4 1
+[2020-05-08 13:44:27] Thread 20: response: piece 4 1
+[2020-05-08 13:44:28] Thread 20: command: piece 3 2
+[2020-05-08 13:44:28] Thread 21: response: piece 3 2
+[2020-05-08 13:44:30] Thread 21: command: piece 4 2
+[2020-05-08 13:44:30] Thread 20: response: piece 4 2
+[2020-05-08 13:44:32] Thread 20: command: piece -3 -3
+[2020-05-08 13:44:32] Thread 20: response: exit -3
+[2020-05-08 13:44:32] Thread 20: response: exit
+[2020-05-08 13:44:32] Thread 20: Finished working
+[2020-05-08 13:44:32] Thread 21: response: piece -3 -3
+[2020-05-08 13:44:32] Thread 21: response: exit
+[2020-05-08 13:44:32] Thread 21: Finished working
+[2020-05-08 13:45:01] Accepted client 22
+[2020-05-08 13:45:01] Thread 22: Starting work
+[2020-05-08 13:45:08] Thread 22: command: create stefy 10 n
+[2020-05-08 13:45:08] Thread 22: response: create mint_green888
+[2020-05-08 13:45:10] Thread 22: command: ok
+[2020-05-08 13:45:12] Accepted client 23
+[2020-05-08 13:45:12] Thread 23: Starting work
+[2020-05-08 13:45:20] Thread 23: command: join mint_green888 razvan
+[2020-05-08 13:45:20] Thread 23: response: join mint_green888 stefy 10
+[2020-05-08 13:45:20] Thread 22: response: player razvan
+[2020-05-08 13:45:21] Thread 23: command: piece -2 -2
+[2020-05-08 13:45:28] Thread 22: command: piece 2 1
+[2020-05-08 13:45:28] Thread 23: response: piece 2 1
+[2020-05-08 13:45:29] Thread 23: command: piece 3 1
+[2020-05-08 13:45:29] Thread 22: response: piece 3 1
+[2020-05-08 13:45:31] Thread 22: command: piece -3 -3
+[2020-05-08 13:45:31] Thread 22: response: exit -3
+[2020-05-08 13:45:31] Thread 22: response: exit
+[2020-05-08 13:45:31] Thread 22: Finished working
+[2020-05-08 13:45:31] Thread 23: response: piece -3 -3
+[2020-05-08 13:45:31] Thread 23: response: exit
+[2020-05-08 13:45:31] Thread 23: Finished working
+[2020-05-08 13:46:10] Accepted client 24
+[2020-05-08 13:46:10] Thread 24: Starting work
+[2020-05-08 13:46:22] Thread 24: command: create stefy 10 n
+[2020-05-08 13:46:22] Thread 24: response: create violet832
+[2020-05-08 13:46:26] Thread 24: command: ok
+[2020-05-08 13:46:28] Accepted client 25
+[2020-05-08 13:46:28] Thread 25: Starting work
+[2020-05-08 13:46:38] Thread 25: command: join violet832 razvan
+[2020-05-08 13:46:38] Thread 25: response: join violet832 stefy 10
+[2020-05-08 13:46:38] Thread 24: response: player razvan
+[2020-05-08 13:46:39] Thread 25: command: piece -2 -2
+[2020-05-08 13:46:44] Thread 24: command: piece 2 1
+[2020-05-08 13:46:44] Thread 25: response: piece 2 1
+[2020-05-08 13:46:45] Thread 25: command: piece 3 1
+[2020-05-08 13:46:45] Thread 24: response: piece 3 1
+[2020-05-08 13:46:47] Thread 24: command: piece -3 -3
+[2020-05-08 13:46:47] Thread 24: response: exit -3
+[2020-05-08 13:46:47] Thread 24: response: exit
+[2020-05-08 13:46:47] Thread 24: Finished working
+[2020-05-08 13:46:47] Thread 25: response: piece -3 -3
+[2020-05-08 13:46:47] Thread 25: response: exit
+[2020-05-08 13:46:47] Thread 25: Finished working
+[2020-05-08 13:47:32] Server up - listening to 192.168.100.6:3579
+[2020-05-08 13:47:36] Accepted client 0
+[2020-05-08 13:47:36] Thread 0: Starting work
+[2020-05-08 13:47:43] Thread 0: command: create stefan 10 n
+[2020-05-08 13:47:43] Thread 0: response: create salmon106
+[2020-05-08 13:47:46] Accepted client 1
+[2020-05-08 13:47:46] Thread 1: Starting work
+[2020-05-08 13:47:48] Thread 0: command: ok
+[2020-05-08 13:47:57] Thread 1: command: join salmon106 razvan
+[2020-05-08 13:47:57] Thread 1: response: join salmon106 stefan 10
+[2020-05-08 13:47:57] Thread 0: response: player razvan
+[2020-05-08 13:47:58] Thread 1: command: piece -2 -2
+[2020-05-08 13:48:00] Thread 0: command: piece 2 1
+[2020-05-08 13:48:00] Thread 1: response: piece 2 1
+[2020-05-08 13:48:02] Thread 1: command: piece 3 1
+[2020-05-08 13:48:02] Thread 0: response: piece 3 1
+[2020-05-08 13:48:03] Thread 0: command: piece 2 2
+[2020-05-08 13:48:03] Thread 1: response: piece 2 2
+[2020-05-08 13:48:04] Thread 1: command: piece 3 2
+[2020-05-08 13:48:04] Thread 0: response: piece 3 2
+[2020-05-08 13:48:06] Thread 0: command: piece -3 -3
+[2020-05-08 13:48:06] Thread 0: response: exit -3
+[2020-05-08 13:48:06] Thread 0: response: exit
+[2020-05-08 13:48:06] Thread 0: Finished working
+[2020-05-08 13:48:06] Thread 1: response: piece -3 -3
+[2020-05-08 13:48:06] Thread 1: response: exit
+[2020-05-08 13:48:06] Thread 1: Finished working
+[2020-05-08 13:49:17] Accepted client 2
+[2020-05-08 13:49:17] Thread 2: Starting work
+[2020-05-08 13:49:23] Thread 2: command: create stefy 10 n
+[2020-05-08 13:49:23] Thread 2: response: create red672
+[2020-05-08 13:49:25] Thread 2: command: ok
+[2020-05-08 13:49:27] Accepted client 3
+[2020-05-08 13:49:27] Thread 3: Starting work
+[2020-05-08 13:49:34] Thread 3: command: join red672 razvan
+[2020-05-08 13:49:34] Thread 3: response: join red672 stefy 10
+[2020-05-08 13:49:34] Thread 2: response: player razvan
+[2020-05-08 13:49:35] Thread 3: command: piece -2 -2
+[2020-05-08 13:49:40] Thread 2: command: piece 2 1
+[2020-05-08 13:49:40] Thread 3: response: piece 2 1
+[2020-05-08 13:49:41] Thread 3: command: piece 3 1
+[2020-05-08 13:49:41] Thread 2: response: piece 3 1
+[2020-05-08 13:49:42] Thread 2: command: piece 2 2
+[2020-05-08 13:49:42] Thread 3: response: piece 2 2
+[2020-05-08 13:49:43] Thread 3: command: piece 3 2
+[2020-05-08 13:49:43] Thread 2: response: piece 3 2
+[2020-05-08 13:49:44] Thread 2: command: piece 2 3
+[2020-05-08 13:49:44] Thread 3: response: piece 2 3
+[2020-05-08 13:49:46] Thread 3: command: piece 3 3
+[2020-05-08 13:49:46] Thread 2: response: piece 3 3
+[2020-05-08 13:49:47] Thread 2: command: piece 2 4
+[2020-05-08 13:49:47] Thread 3: response: piece 2 4
+[2020-05-08 13:49:48] Thread 3: command: piece 3 4
+[2020-05-08 13:49:48] Thread 2: response: piece 3 4
+[2020-05-08 13:49:50] Thread 2: command: piece 2 5
+[2020-05-08 13:49:50] Thread 3: response: piece 2 5 win
+[2020-05-08 13:49:51] Thread 3: command: piece 3 5
+[2020-05-08 13:49:51] Thread 2: response: piece 3 5 win
+[2020-05-08 13:49:52] Thread 2: command: piece 2 6
+[2020-05-08 13:49:52] Thread 3: response: piece 2 6 win
+[2020-05-08 13:49:53] Thread 3: command: piece 3 6
+[2020-05-08 13:49:53] Thread 2: response: piece 3 6 win
+[2020-05-08 13:49:56] Thread 2: command: piece -3 -3
+[2020-05-08 13:49:56] Thread 2: response: exit -3
+[2020-05-08 13:49:56] Thread 2: response: exit
+[2020-05-08 13:49:56] Thread 2: Finished working
+[2020-05-08 13:49:56] Thread 3: response: piece -3 -3 win
+[2020-05-08 13:49:56] Thread 3: response: exit
+[2020-05-08 13:49:56] Thread 3: Finished working
+[2020-05-08 13:53:07] Accepted client 4
+[2020-05-08 13:53:07] Thread 4: Starting work
+[2020-05-08 13:53:13] Thread 4: command: create stefy 10 n
+[2020-05-08 13:53:13] Thread 4: response: create gold810
+[2020-05-08 13:53:15] Thread 4: command: ok
+[2020-05-08 13:53:18] Accepted client 5
+[2020-05-08 13:53:18] Thread 5: Starting work
+[2020-05-08 13:53:27] Thread 5: command: join gold810 razvan
+[2020-05-08 13:53:27] Thread 5: response: join gold810 stefy 10
+[2020-05-08 13:53:27] Thread 4: response: player razvan
+[2020-05-08 13:53:28] Thread 5: command: piece -2 -2
+[2020-05-08 13:53:31] Thread 4: command: piece 2 1
+[2020-05-08 13:53:31] Thread 5: response: piece 2 1
+[2020-05-08 13:53:32] Thread 5: command: piece 3 1
+[2020-05-08 13:53:32] Thread 4: response: piece 3 1
+[2020-05-08 13:53:35] Thread 4: command: piece 2 2
+[2020-05-08 13:53:35] Thread 5: response: piece 2 2
+[2020-05-08 13:53:36] Thread 5: command: piece 3 2
+[2020-05-08 13:53:36] Thread 4: response: piece 3 2
+[2020-05-08 13:53:37] Thread 4: command: piece 2 3
+[2020-05-08 13:53:37] Thread 5: response: piece 2 3
+[2020-05-08 13:53:38] Thread 5: command: piece 3 3
+[2020-05-08 13:53:38] Thread 4: response: piece 3 3
+[2020-05-08 13:53:39] Thread 4: command: piece 2 4
+[2020-05-08 13:53:39] Thread 5: response: piece 2 4
+[2020-05-08 13:53:41] Thread 5: command: piece 3 4
+[2020-05-08 13:53:41] Thread 4: response: piece 3 4
+[2020-05-08 13:53:42] Thread 4: command: piece 2 5
+[2020-05-08 13:53:42] Thread 5: response: piece 2 5 win
+[2020-05-08 13:53:51] Thread 5: command: piece -3 -3
+[2020-05-08 13:53:51] Thread 5: response: exit -3
+[2020-05-08 13:53:51] Thread 5: response: exit
+[2020-05-08 13:53:51] Thread 5: Finished working
+[2020-05-08 13:53:51] Thread 4: response: piece -3 -3 win
+[2020-05-08 13:53:51] Thread 4: response: exit
+[2020-05-08 13:53:51] Thread 4: Finished working
+[2020-05-08 13:55:32] Accepted client 6
+[2020-05-08 13:55:32] Thread 6: Starting work
+[2020-05-08 13:55:38] Thread 6: command: create stefy 10 n
+[2020-05-08 13:55:38] Thread 6: response: create black347
+[2020-05-08 13:55:40] Thread 6: command: ok
+[2020-05-08 13:55:42] Accepted client 7
+[2020-05-08 13:55:42] Thread 7: Starting work
+[2020-05-08 13:55:52] Thread 7: command: join black347 razvan
+[2020-05-08 13:55:52] Thread 7: response: join black347 stefy 10
+[2020-05-08 13:55:52] Thread 6: response: player razvan
+[2020-05-08 13:55:53] Thread 7: command: piece -2 -2
+[2020-05-08 13:55:57] Thread 6: command: piece 2 1
+[2020-05-08 13:55:57] Thread 7: response: piece 2 1
+[2020-05-08 13:55:58] Thread 7: command: piece 3 1
+[2020-05-08 13:55:58] Thread 6: response: piece 3 1
+[2020-05-08 13:55:59] Thread 6: command: piece 2 2
+[2020-05-08 13:55:59] Thread 7: response: piece 2 2
+[2020-05-08 13:56:00] Thread 7: command: piece 3 2
+[2020-05-08 13:56:00] Thread 6: response: piece 3 2
+[2020-05-08 13:56:01] Thread 6: command: piece 2 3
+[2020-05-08 13:56:01] Thread 7: response: piece 2 3
+[2020-05-08 13:56:02] Thread 7: command: piece 3 3
+[2020-05-08 13:56:02] Thread 6: response: piece 3 3
+[2020-05-08 13:56:03] Thread 6: command: piece 2 4
+[2020-05-08 13:56:03] Thread 7: response: piece 2 4
+[2020-05-08 13:56:04] Thread 7: command: piece 3 4
+[2020-05-08 13:56:04] Thread 6: response: piece 3 4
+[2020-05-08 13:56:06] Thread 6: command: piece 2 5
+[2020-05-08 13:56:06] Thread 7: response: piece 2 5 win
+[2020-05-08 13:57:51] Accepted client 8
+[2020-05-08 13:57:51] Thread 8: Starting work
+[2020-05-08 13:58:25] Thread 8: command: create stefy 10 n
+[2020-05-08 13:58:25] Thread 8: response: create tan316
+[2020-05-08 13:58:27] Thread 8: command: ok
+[2020-05-08 13:58:28] Accepted client 9
+[2020-05-08 13:58:28] Thread 9: Starting work
+[2020-05-08 13:58:37] Thread 9: command: join tan316 razvan
+[2020-05-08 13:58:37] Thread 9: response: join tan316 stefy 10
+[2020-05-08 13:58:37] Thread 8: response: player razvan
+[2020-05-08 13:58:38] Thread 9: command: piece -2 -2
+[2020-05-08 13:58:42] Thread 8: command: piece 2 1
+[2020-05-08 13:58:42] Thread 9: response: piece 2 1
+[2020-05-08 13:58:43] Thread 9: command: piece 3 1
+[2020-05-08 13:58:43] Thread 8: response: piece 3 1
+[2020-05-08 13:58:44] Thread 8: command: piece 2 2
+[2020-05-08 13:58:44] Thread 9: response: piece 2 2
+[2020-05-08 13:58:45] Thread 9: command: piece 3 2
+[2020-05-08 13:58:45] Thread 8: response: piece 3 2
+[2020-05-08 13:58:46] Thread 8: command: piece 2 3
+[2020-05-08 13:58:46] Thread 9: response: piece 2 3
+[2020-05-08 13:58:47] Thread 9: command: piece 3 3
+[2020-05-08 13:58:47] Thread 8: response: piece 3 3
+[2020-05-08 13:58:48] Thread 8: command: piece 2 4
+[2020-05-08 13:58:49] Thread 9: response: piece 2 4
+[2020-05-08 13:58:50] Thread 9: command: piece 3 4
+[2020-05-08 13:58:50] Thread 8: response: piece 3 4
+[2020-05-08 13:58:51] Thread 8: command: piece 2 5
+[2020-05-08 13:58:51] Thread 9: response: piece 2 5 win
+[2020-05-08 14:01:41] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:01:46] Accepted client 0
+[2020-05-08 14:01:46] Thread 0: Starting work
+[2020-05-08 14:01:51] Thread 0: command: create stefy 10 n
+[2020-05-08 14:01:51] Thread 0: response: create olive522
+[2020-05-08 14:01:53] Thread 0: command: ok
+[2020-05-08 14:01:55] Accepted client 1
+[2020-05-08 14:01:55] Thread 1: Starting work
+[2020-05-08 14:02:03] Thread 1: command: join olive522 razvan
+[2020-05-08 14:02:03] Thread 1: response: join olive522 stefy 10
+[2020-05-08 14:02:03] Thread 0: response: player razvan
+[2020-05-08 14:02:04] Thread 1: command: piece -2 -2
+[2020-05-08 14:02:07] Thread 0: command: piece 3 1
+[2020-05-08 14:02:07] Thread 1: response: piece 3 1
+[2020-05-08 14:02:43] Accepted client 2
+[2020-05-08 14:02:43] Thread 2: Starting work
+[2020-05-08 14:02:49] Thread 2: command: create stefy 10 n
+[2020-05-08 14:02:49] Thread 2: response: create orange380
+[2020-05-08 14:02:51] Thread 2: command: ok
+[2020-05-08 14:02:53] Accepted client 3
+[2020-05-08 14:02:53] Thread 3: Starting work
+[2020-05-08 14:03:00] Thread 3: command: join orange380 razvan
+[2020-05-08 14:03:00] Thread 3: response: join orange380 stefy 10
+[2020-05-08 14:03:00] Thread 2: response: player razvan
+[2020-05-08 14:03:01] Thread 3: command: piece -2 -2
+[2020-05-08 14:03:06] Thread 2: command: piece 2 1
+[2020-05-08 14:03:07] Thread 3: response: piece 2 1
+[2020-05-08 14:03:08] Thread 3: command: piece 3 1
+[2020-05-08 14:03:08] Thread 2: response: piece 3 1
+[2020-05-08 14:03:09] Thread 2: command: piece 2 2
+[2020-05-08 14:03:09] Thread 3: response: piece 2 2
+[2020-05-08 14:03:10] Thread 3: command: piece 3 2
+[2020-05-08 14:03:10] Thread 2: response: piece 3 2
+[2020-05-08 14:03:12] Thread 2: command: piece 2 3
+[2020-05-08 14:03:12] Thread 3: response: piece 2 3
+[2020-05-08 14:03:13] Thread 3: command: piece 3 3
+[2020-05-08 14:03:13] Thread 2: response: piece 3 3
+[2020-05-08 14:03:14] Thread 2: command: piece 2 4
+[2020-05-08 14:03:14] Thread 3: response: piece 2 4
+[2020-05-08 14:03:16] Thread 3: command: piece 3 4
+[2020-05-08 14:03:16] Thread 2: response: piece 3 4
+[2020-05-08 14:03:17] Thread 2: command: piece 2 5
+[2020-05-08 14:03:17] Thread 3: response: piece 2 5 win
+[2020-05-08 14:15:09] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:18:44] Accepted client 0
+[2020-05-08 14:18:44] Thread 0: Starting work
+[2020-05-08 14:18:51] Thread 0: command: create stefy 10 n
+[2020-05-08 14:18:51] Thread 0: response: create violet783
+[2020-05-08 14:18:53] Thread 0: command: ok
+[2020-05-08 14:18:55] Accepted client 1
+[2020-05-08 14:18:55] Thread 1: Starting work
+[2020-05-08 14:19:06] Thread 1: command: join violet783 razvan
+[2020-05-08 14:19:06] Thread 1: response: join violet783 stefy 10
+[2020-05-08 14:19:06] Thread 0: response: player razvan
+[2020-05-08 14:19:07] Thread 1: command: piece -2 -2
+[2020-05-08 14:20:20] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:20:29] Accepted client 0
+[2020-05-08 14:20:29] Thread 0: Starting work
+[2020-05-08 14:20:36] Thread 0: command: create stefy 10 n
+[2020-05-08 14:20:36] Thread 0: response: create pink565
+[2020-05-08 14:20:39] Thread 0: command: ok
+[2020-05-08 14:20:40] Accepted client 1
+[2020-05-08 14:20:40] Thread 1: Starting work
+[2020-05-08 14:20:51] Thread 1: command: join pink565 razvan
+[2020-05-08 14:20:51] Thread 1: response: join pink565 stefy 10
+[2020-05-08 14:20:51] Thread 0: response: player razvan
+[2020-05-08 14:20:52] Thread 1: command: piece -2 -2
+[2020-05-08 14:20:57] Thread 0: command: piece 3 1
+[2020-05-08 14:20:57] Thread 1: response: piece 3 1
+[2020-05-08 14:20:59] Thread 1: command: piece 4 1
+[2020-05-08 14:20:59] Thread 0: response: piece 4 1
+[2020-05-08 14:21:01] Thread 0: command: piece 3 2
+[2020-05-08 14:21:01] Thread 1: response: piece 3 2
+[2020-05-08 14:21:02] Thread 1: command: piece 4 2
+[2020-05-08 14:21:02] Thread 0: response: piece 4 2
+[2020-05-08 14:21:03] Thread 0: command: piece 3 3
+[2020-05-08 14:21:03] Thread 1: response: piece 3 3
+[2020-05-08 14:21:04] Thread 1: command: piece 4 3
+[2020-05-08 14:21:04] Thread 0: response: piece 4 3
+[2020-05-08 14:21:05] Thread 0: command: piece 3 4
+[2020-05-08 14:21:05] Thread 1: response: piece 3 4
+[2020-05-08 14:21:06] Thread 1: command: piece 4 4
+[2020-05-08 14:21:06] Thread 0: response: piece 4 4
+[2020-05-08 14:21:07] Thread 0: command: piece 3 5
+[2020-05-08 14:21:07] Thread 1: response: piece 3 5 win
+[2020-05-08 14:21:07] Thread 1: Finished working
+[2020-05-08 14:22:40] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:22:41] Accepted client 0
+[2020-05-08 14:22:41] Thread 0: Starting work
+[2020-05-08 14:22:48] Thread 0: command: create stefy 10 n
+[2020-05-08 14:22:48] Thread 0: response: create mint_green32
+[2020-05-08 14:22:50] Thread 0: command: ok
+[2020-05-08 14:22:52] Accepted client 1
+[2020-05-08 14:22:52] Thread 1: Starting work
+[2020-05-08 14:23:03] Thread 1: command: join mint_green32 razvan
+[2020-05-08 14:23:03] Thread 1: response: join mint_green32 stefy 10
+[2020-05-08 14:23:03] Thread 0: response: player razvan
+[2020-05-08 14:23:04] Thread 1: command: piece -2 -2
+[2020-05-08 14:23:12] Thread 0: command: piece 3 1
+[2020-05-08 14:23:12] Thread 1: response: piece 3 1
+[2020-05-08 14:23:13] Thread 1: command: piece 4 1
+[2020-05-08 14:23:13] Thread 0: response: piece 4 1
+[2020-05-08 14:23:15] Thread 0: command: piece 3 2
+[2020-05-08 14:23:15] Thread 1: response: piece 3 2
+[2020-05-08 14:23:16] Thread 1: command: piece 4 2
+[2020-05-08 14:23:16] Thread 0: response: piece 4 2
+[2020-05-08 14:23:19] Thread 0: command: piece 3 3
+[2020-05-08 14:23:19] Thread 1: response: piece 3 3
+[2020-05-08 14:23:21] Thread 1: command: piece 4 3
+[2020-05-08 14:23:21] Thread 0: response: piece 4 3
+[2020-05-08 14:23:23] Thread 0: command: piece 3 4
+[2020-05-08 14:23:23] Thread 1: response: piece 3 4
+[2020-05-08 14:23:24] Thread 1: command: piece 4 4
+[2020-05-08 14:23:24] Thread 0: response: piece 4 4
+[2020-05-08 14:23:25] Thread 0: command: piece 3 5
+[2020-05-08 14:23:25] Thread 1: response: piece 3 5 win
+[2020-05-08 14:23:25] Thread 1: Finished working
+[2020-05-08 14:30:42] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:30:43] Accepted client 0
+[2020-05-08 14:30:43] Thread 0: Starting work
+[2020-05-08 14:30:50] Thread 0: command: create stefy 10 n
+[2020-05-08 14:30:50] Thread 0: response: create grey422
+[2020-05-08 14:30:52] Thread 0: command: ok
+[2020-05-08 14:30:55] Thread 1: Starting work
+[2020-05-08 14:30:55] Accepted client 1
+[2020-05-08 14:31:08] Thread 1: command: join grey422 razvan
+[2020-05-08 14:31:08] Thread 1: response: join grey422 stefy 10
+[2020-05-08 14:31:08] Thread 0: response: player razvan
+[2020-05-08 14:31:09] Thread 1: command: piece -2 -2
+[2020-05-08 14:31:15] Thread 0: command: piece 2 1
+[2020-05-08 14:31:15] Thread 1: response: piece 2 1
+[2020-05-08 14:31:16] Thread 1: command: piece 3 1
+[2020-05-08 14:31:16] Thread 0: response: piece 3 1
+[2020-05-08 14:31:18] Thread 0: command: piece 2 2
+[2020-05-08 14:31:18] Thread 1: response: piece 2 2
+[2020-05-08 14:31:23] Thread 1: command: piece 3 2
+[2020-05-08 14:31:23] Thread 0: response: piece 3 2
+[2020-05-08 14:31:24] Thread 0: command: piece 2 3
+[2020-05-08 14:31:24] Thread 1: response: piece 2 3
+[2020-05-08 14:31:26] Thread 1: command: piece 3 3
+[2020-05-08 14:31:26] Thread 0: response: piece 3 3
+[2020-05-08 14:31:27] Thread 0: command: piece 2 4
+[2020-05-08 14:31:27] Thread 1: response: piece 2 4
+[2020-05-08 14:31:28] Thread 1: command: piece 3 4
+[2020-05-08 14:31:28] Thread 0: response: piece 3 4
+[2020-05-08 14:31:33] Thread 0: command: piece 2 5
+[2020-05-08 14:31:33] Thread 1: response: piece 2 5 win
+[2020-05-08 14:31:33] Thread 1: Finished working
+[2020-05-08 14:39:09] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:39:12] Accepted client 0
+[2020-05-08 14:39:12] Thread 0: Starting work
+[2020-05-08 14:39:19] Thread 0: command: create stefy 10 n
+[2020-05-08 14:39:19] Thread 0: response: create cyan521
+[2020-05-08 14:39:22] Thread 0: command: ok
+[2020-05-08 14:39:23] Accepted client 1
+[2020-05-08 14:39:23] Thread 1: Starting work
+[2020-05-08 14:39:32] Thread 1: command: join cyan521 razvan
+[2020-05-08 14:39:32] Thread 1: response: join cyan521 stefy 10
+[2020-05-08 14:39:32] Thread 0: response: player razvan
+[2020-05-08 14:39:33] Thread 1: command: piece -2 -2
+[2020-05-08 14:39:37] Thread 0: command: piece 2 1
+[2020-05-08 14:39:37] Thread 1: response: piece 2 1
+[2020-05-08 14:39:38] Thread 1: command: piece 3 1
+[2020-05-08 14:39:38] Thread 0: response: piece 3 1
+[2020-05-08 14:39:39] Thread 0: command: piece 2 2
+[2020-05-08 14:39:39] Thread 1: response: piece 2 2
+[2020-05-08 14:39:41] Thread 1: command: piece 3 2
+[2020-05-08 14:39:41] Thread 0: response: piece 3 2
+[2020-05-08 14:39:42] Thread 0: command: piece 2 3
+[2020-05-08 14:39:42] Thread 1: response: piece 2 3
+[2020-05-08 14:39:44] Thread 1: command: piece 3 3
+[2020-05-08 14:39:44] Thread 0: response: piece 3 3
+[2020-05-08 14:39:45] Thread 0: command: piece 2 4
+[2020-05-08 14:39:45] Thread 1: response: piece 2 4
+[2020-05-08 14:39:46] Thread 1: command: piece 3 4
+[2020-05-08 14:39:46] Thread 0: response: piece 3 4
+[2020-05-08 14:39:47] Thread 0: command: piece 2 5
+[2020-05-08 14:39:47] Thread 1: response: piece 2 5 win
+[2020-05-08 14:39:47] Thread 1: Finished working
+[2020-05-08 14:47:23] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:47:26] Accepted client 0
+[2020-05-08 14:47:26] Thread 0: Starting work
+[2020-05-08 14:47:33] Thread 0: command: create stefy 10 n
+[2020-05-08 14:47:33] Thread 0: response: create silver68
+[2020-05-08 14:47:35] Thread 0: command: ok
+[2020-05-08 14:47:37] Accepted client 1
+[2020-05-08 14:47:37] Thread 1: Starting work
+[2020-05-08 14:47:45] Thread 1: command: join silver68 razvan
+[2020-05-08 14:47:45] Thread 1: response: join silver68 stefy 10
+[2020-05-08 14:47:45] Thread 0: response: player razvan
+[2020-05-08 14:47:46] Thread 1: command: piece -2 -2
+[2020-05-08 14:48:03] Thread 0: command: piece 2 1
+[2020-05-08 14:48:03] Thread 1: response: piece 2 1
+[2020-05-08 14:48:04] Thread 1: command: piece 3 1
+[2020-05-08 14:48:04] Thread 0: response: piece 3 1
+[2020-05-08 14:48:06] Thread 0: command: piece 2 2
+[2020-05-08 14:48:06] Thread 1: response: piece 2 2
+[2020-05-08 14:48:08] Thread 1: command: piece 3 2
+[2020-05-08 14:48:08] Thread 0: response: piece 3 2
+[2020-05-08 14:48:14] Thread 0: command: piece 2 3
+[2020-05-08 14:48:14] Thread 1: response: piece 2 3
+[2020-05-08 14:48:16] Thread 1: command: piece 3 3
+[2020-05-08 14:48:16] Thread 0: response: piece 3 3
+[2020-05-08 14:48:17] Thread 0: command: piece 2 4
+[2020-05-08 14:48:17] Thread 1: response: piece 2 4
+[2020-05-08 14:48:18] Thread 1: command: piece 3 4
+[2020-05-08 14:48:18] Thread 0: response: piece 3 4
+[2020-05-08 14:48:20] Thread 0: command: piece 2 5
+[2020-05-08 14:48:20] Thread 0: response: piece 100 100
+[2020-05-08 14:48:20] Thread 1: response: piece 2 5 win
+[2020-05-08 14:48:20] Thread 1: Finished working
+[2020-05-08 14:50:40] Accepted client 2
+[2020-05-08 14:50:40] Thread 2: Starting work
+[2020-05-08 14:50:48] Thread 2: command: create stefy 10 n
+[2020-05-08 14:50:48] Thread 2: response: create lime34
+[2020-05-08 14:50:50] Thread 2: command: ok
+[2020-05-08 14:50:51] Accepted client 3
+[2020-05-08 14:50:51] Thread 3: Starting work
+[2020-05-08 14:50:59] Thread 3: command: join lime34 razvan
+[2020-05-08 14:50:59] Thread 3: response: join lime34 stefy 10
+[2020-05-08 14:50:59] Thread 2: response: player razvan
+[2020-05-08 14:51:00] Thread 3: command: piece -2 -2
+[2020-05-08 14:51:06] Thread 2: command: piece 2 1
+[2020-05-08 14:51:06] Thread 3: response: piece 2 1
+[2020-05-08 14:51:07] Thread 3: command: piece 3 1
+[2020-05-08 14:51:07] Thread 2: response: piece 3 1
+[2020-05-08 14:51:08] Thread 2: command: piece 3 2
+[2020-05-08 14:51:08] Thread 3: response: piece 3 2
+[2020-05-08 14:51:09] Thread 3: command: piece 4 2
+[2020-05-08 14:51:09] Thread 2: response: piece 4 2
+[2020-05-08 14:51:10] Thread 2: command: piece 4 3
+[2020-05-08 14:51:11] Thread 3: response: piece 4 3
+[2020-05-08 14:51:12] Thread 3: command: piece 5 3
+[2020-05-08 14:51:12] Thread 2: response: piece 5 3
+[2020-05-08 14:51:13] Thread 2: command: piece 5 4
+[2020-05-08 14:51:13] Thread 3: response: piece 5 4
+[2020-05-08 14:51:14] Thread 3: command: piece 6 4
+[2020-05-08 14:51:14] Thread 2: response: piece 6 4
+[2020-05-08 14:51:16] Thread 2: command: piece 6 5
+[2020-05-08 14:51:16] Thread 2: response: piece 100 100
+[2020-05-08 14:51:16] Thread 3: response: piece 6 5 win
+[2020-05-08 14:51:16] Thread 3: Finished working
+[2020-05-08 14:53:07] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:53:16] Accepted client 0
+[2020-05-08 14:53:16] Thread 0: Starting work
+[2020-05-08 14:53:22] Thread 0: command: create stefy 10 n
+[2020-05-08 14:53:22] Thread 0: response: create black23
+[2020-05-08 14:53:24] Thread 0: command: ok
+[2020-05-08 14:53:27] Thread 1: Starting work
+[2020-05-08 14:53:27] Accepted client 1
+[2020-05-08 14:53:37] Thread 1: command: join black23 razvan
+[2020-05-08 14:53:37] Thread 1: response: join black23 stefy 10
+[2020-05-08 14:53:37] Thread 0: response: player razvan
+[2020-05-08 14:53:38] Thread 1: command: piece -2 -2
+[2020-05-08 14:53:58] Thread 0: command: piece 2 1
+[2020-05-08 14:53:58] Thread 1: response: piece 2 1
+[2020-05-08 14:53:59] Thread 1: command: piece 3 1
+[2020-05-08 14:53:59] Thread 0: response: piece 3 1
+[2020-05-08 14:54:01] Thread 0: command: piece 2 2
+[2020-05-08 14:54:01] Thread 1: response: piece 2 2
+[2020-05-08 14:54:02] Thread 1: command: piece 3 2
+[2020-05-08 14:54:02] Thread 0: response: piece 3 2
+[2020-05-08 14:54:03] Thread 0: command: piece 2 3
+[2020-05-08 14:54:03] Thread 1: response: piece 2 3
+[2020-05-08 14:54:04] Thread 1: command: piece 3 3
+[2020-05-08 14:54:04] Thread 0: response: piece 3 3
+[2020-05-08 14:54:05] Thread 0: command: piece 2 4
+[2020-05-08 14:54:05] Thread 1: response: piece 2 4
+[2020-05-08 14:54:07] Thread 1: command: piece 3 4
+[2020-05-08 14:54:07] Thread 0: response: piece 3 4
+[2020-05-08 14:54:08] Thread 0: command: piece 2 5
+[2020-05-08 14:54:08] Thread 0: response: piece 100 100
+[2020-05-08 14:54:08] Thread 1: response: piece 2 5 win
+[2020-05-08 14:54:08] Thread 1: Finished working
+[2020-05-08 14:54:40] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:54:42] Accepted client 0
+[2020-05-08 14:54:42] Thread 0: Starting work
+[2020-05-08 14:54:47] Thread 0: command: create stefy 10 n
+[2020-05-08 14:54:47] Thread 0: response: create yellow743
+[2020-05-08 14:54:49] Thread 0: command: ok
+[2020-05-08 14:54:51] Accepted client 1
+[2020-05-08 14:54:51] Thread 1: Starting work
+[2020-05-08 14:55:04] Thread 1: command: join yellow743 razvan
+[2020-05-08 14:55:04] Thread 1: response: join yellow743 stefy 10
+[2020-05-08 14:55:04] Thread 0: response: player razvan
+[2020-05-08 14:55:05] Thread 1: command: piece -2 -2
+[2020-05-08 14:55:10] Thread 0: command: piece 2 1
+[2020-05-08 14:55:10] Thread 1: response: piece 2 1
+[2020-05-08 14:55:11] Thread 1: command: piece 3 1
+[2020-05-08 14:55:11] Thread 0: response: piece 3 1
+[2020-05-08 14:55:13] Thread 0: command: piece 2 2
+[2020-05-08 14:55:13] Thread 1: response: piece 2 2
+[2020-05-08 14:55:14] Thread 1: command: piece 3 2
+[2020-05-08 14:55:14] Thread 0: response: piece 3 2
+[2020-05-08 14:55:16] Thread 0: command: piece 2 3
+[2020-05-08 14:55:16] Thread 1: response: piece 2 3
+[2020-05-08 14:55:17] Thread 1: command: piece 3 3
+[2020-05-08 14:55:17] Thread 0: response: piece 3 3
+[2020-05-08 14:55:18] Thread 0: command: piece 2 4
+[2020-05-08 14:55:18] Thread 1: response: piece 2 4
+[2020-05-08 14:55:20] Thread 1: command: piece 3 4
+[2020-05-08 14:55:20] Thread 0: response: piece 3 4
+[2020-05-08 14:55:22] Thread 0: command: piece 2 5
+[2020-05-08 14:55:22] Thread 0: response: piece 100 100
+[2020-05-08 14:55:22] Thread 0: Finished working
+[2020-05-08 14:55:22] Thread 1: response: piece 2 5 win
+[2020-05-08 14:55:22] Thread 1: Finished working
+[2020-05-08 14:56:31] Server up - listening to 192.168.100.6:3579
+[2020-05-08 14:56:33] Accepted client 0
+[2020-05-08 14:56:33] Thread 0: Starting work
+[2020-05-08 14:56:38] Thread 0: command: create stefy 10 n
+[2020-05-08 14:56:39] Thread 0: response: create silver56
+[2020-05-08 14:56:40] Accepted client 1
+[2020-05-08 14:56:40] Thread 1: Starting work
+[2020-05-08 14:56:43] Thread 0: command: ok
+[2020-05-08 14:56:52] Thread 1: command: join silver56 razvan
+[2020-05-08 14:56:52] Thread 1: response: join silver56 stefy 10
+[2020-05-08 14:56:52] Thread 0: response: player razvan
+[2020-05-08 14:56:53] Thread 1: command: piece -2 -2
+[2020-05-08 14:57:01] Thread 0: command: piece 2 1
+[2020-05-08 14:57:01] Thread 1: response: piece 2 1
+[2020-05-08 14:57:02] Thread 1: command: piece 3 1
+[2020-05-08 14:57:02] Thread 0: response: piece 3 1
+[2020-05-08 14:57:03] Thread 0: command: piece 2 2
+[2020-05-08 14:57:03] Thread 1: response: piece 2 2
+[2020-05-08 14:57:05] Thread 1: command: piece 3 2
+[2020-05-08 14:57:05] Thread 0: response: piece 3 2
+[2020-05-08 14:57:06] Thread 0: command: piece 2 3
+[2020-05-08 14:57:06] Thread 1: response: piece 2 3
+[2020-05-08 14:57:07] Thread 1: command: piece 3 3
+[2020-05-08 14:57:07] Thread 0: response: piece 3 3
+[2020-05-08 14:57:08] Thread 0: command: piece 2 4
+[2020-05-08 14:57:08] Thread 1: response: piece 2 4
+[2020-05-08 14:57:09] Thread 1: command: piece 3 4
+[2020-05-08 14:57:09] Thread 0: response: piece 3 4
+[2020-05-08 14:57:10] Thread 0: command: piece 2 5
+[2020-05-08 14:57:10] Thread 0: response: piece 100 100
+[2020-05-08 14:57:10] Thread 0: Finished working
+[2020-05-08 14:57:10] Thread 1: response: piece 2 5 win
+[2020-05-08 14:57:10] Thread 1: Finished working
+[2020-05-08 15:07:19] Server up - listening to 192.168.100.6:3579
+[2020-05-08 15:07:25] Accepted client 0
+[2020-05-08 15:07:25] Thread 0: Starting work
+[2020-05-08 15:07:32] Thread 0: command: create stefy 10 n
+[2020-05-08 15:07:32] Thread 0: response: create salmon133
+[2020-05-08 15:07:34] Thread 0: command: ok
+[2020-05-08 15:07:37] Accepted client 1
+[2020-05-08 15:07:37] Thread 1: Starting work
+[2020-05-08 15:07:45] Thread 1: command: join salmon133 razvan
+[2020-05-08 15:07:45] Thread 1: response: join salmon133 stefy 10
+[2020-05-08 15:07:45] Thread 0: response: player razvan
+[2020-05-08 15:07:46] Thread 1: command: piece -2 -2
+[2020-05-08 15:07:53] Thread 0: command: piece 2 1
+[2020-05-08 15:07:53] Thread 1: response: piece 2 1
+[2020-05-08 15:07:54] Thread 1: command: piece 3 1
+[2020-05-08 15:07:54] Thread 0: response: piece 3 1
+[2020-05-08 15:07:55] Thread 0: command: piece 2 2
+[2020-05-08 15:07:55] Thread 1: response: piece 2 2
+[2020-05-08 15:07:57] Thread 1: command: piece 3 2
+[2020-05-08 15:07:57] Thread 0: response: piece 3 2
+[2020-05-08 15:07:58] Thread 0: command: piece 2 3
+[2020-05-08 15:07:58] Thread 1: response: piece 2 3
+[2020-05-08 15:07:59] Thread 1: command: piece 3 3
+[2020-05-08 15:07:59] Thread 0: response: piece 3 3
+[2020-05-08 15:08:01] Thread 0: command: piece 2 4
+[2020-05-08 15:08:01] Thread 1: response: piece 2 4
+[2020-05-08 15:08:02] Thread 1: command: piece 3 4
+[2020-05-08 15:08:02] Thread 0: response: piece 3 4
+[2020-05-08 15:08:03] Thread 0: command: piece 2 5
+[2020-05-08 15:08:03] Thread 0: response: piece 100 100
+[2020-05-08 15:08:03] Thread 0: Finished working
+[2020-05-08 15:08:03] Thread 1: response: piece 2 5 win
+[2020-05-08 15:08:03] Thread 1: Finished working
+[2020-05-08 15:08:47] Server up - listening to 192.168.100.6:3579
+[2020-05-08 15:08:48] Accepted client 0
+[2020-05-08 15:08:48] Thread 0: Starting work
+[2020-05-08 15:08:56] Thread 0: command: create stefy 10 n
+[2020-05-08 15:08:56] Thread 0: response: create lavender579
+[2020-05-08 15:08:58] Thread 0: command: ok
+[2020-05-08 15:08:59] Accepted client 1
+[2020-05-08 15:08:59] Thread 1: Starting work
+[2020-05-08 15:09:08] Thread 1: command: join lavander579 razvan
+[2020-05-08 15:09:08] Thread 1: response: error invalid_gid
+[2020-05-08 15:09:19] Thread 2: Starting work
+[2020-05-08 15:09:19] Accepted client 2
+[2020-05-08 15:09:27] Thread 2: command: create stefy 10 n
+[2020-05-08 15:09:27] Thread 2: response: create green827
+[2020-05-08 15:09:29] Thread 2: command: ok
+[2020-05-08 15:09:32] Accepted client 3
+[2020-05-08 15:09:32] Thread 3: Starting work
+[2020-05-08 15:09:43] Thread 3: command: join green827 razvan
+[2020-05-08 15:09:43] Thread 2: response: player razvan
+[2020-05-08 15:09:43] Thread 3: response: join green827 stefy 10
+[2020-05-08 15:09:44] Thread 3: command: piece -2 -2
+[2020-05-08 15:09:48] Thread 2: command: piece 2 1
+[2020-05-08 15:09:48] Thread 3: response: piece 2 1
+[2020-05-08 15:09:50] Thread 3: command: piece 3 1
+[2020-05-08 15:09:50] Thread 2: response: piece 3 1
+[2020-05-08 15:09:51] Thread 2: command: piece 2 2
+[2020-05-08 15:09:51] Thread 3: response: piece 2 2
+[2020-05-08 15:09:52] Thread 3: command: piece 3 2
+[2020-05-08 15:09:52] Thread 2: response: piece 3 2
+[2020-05-08 15:09:53] Thread 2: command: piece 2 3
+[2020-05-08 15:09:53] Thread 3: response: piece 2 3
+[2020-05-08 15:09:54] Thread 3: command: piece 3 3
+[2020-05-08 15:09:54] Thread 2: response: piece 3 3
+[2020-05-08 15:09:56] Thread 2: command: piece 2 4
+[2020-05-08 15:09:56] Thread 3: response: piece 2 4
+[2020-05-08 15:09:57] Thread 3: command: piece 3 4
+[2020-05-08 15:09:57] Thread 2: response: piece 3 4
+[2020-05-08 15:09:58] Thread 2: command: piece 2 0
+[2020-05-08 15:09:58] Thread 2: response: piece 100 100
+[2020-05-08 15:09:58] Thread 2: Finished working
+[2020-05-08 15:09:58] Thread 3: response: piece 2 0 win
+[2020-05-08 15:09:58] Thread 3: Finished working
+[2020-05-08 15:14:57] Server up - listening to 192.168.100.6:3579
+[2020-05-08 15:15:02] Accepted client 0
+[2020-05-08 15:15:02] Thread 0: Starting work
+[2020-05-08 15:15:07] Thread 0: command: create stefy 10 n
+[2020-05-08 15:15:08] Thread 0: response: create tan903
+[2020-05-08 15:15:10] Thread 0: command: ok
+[2020-05-08 15:15:14] Accepted client 1
+[2020-05-08 15:15:14] Thread 1: Starting work
+[2020-05-08 15:15:22] Thread 1: command: join tan903 razvan
+[2020-05-08 15:15:22] Thread 1: response: join tan903 stefy 10
+[2020-05-08 15:15:22] Thread 0: response: player razvan
+[2020-05-08 15:15:23] Thread 1: command: piece -2 -2
+[2020-05-08 15:15:29] Thread 0: command: piece 2 1
+[2020-05-08 15:15:29] Thread 1: response: piece 2 1
+[2020-05-08 15:15:31] Thread 1: command: piece 3 1
+[2020-05-08 15:15:31] Thread 0: response: piece 3 1
+[2020-05-08 15:15:32] Thread 0: command: piece 2 2
+[2020-05-08 15:15:32] Thread 1: response: piece 2 2
+[2020-05-08 15:15:33] Thread 1: command: piece 3 2
+[2020-05-08 15:15:33] Thread 0: response: piece 3 2
+[2020-05-08 15:15:34] Thread 0: command: piece 2 3
+[2020-05-08 15:15:34] Thread 1: response: piece 2 3
+[2020-05-08 15:15:36] Thread 1: command: piece 3 3
+[2020-05-08 15:15:36] Thread 0: response: piece 3 3
+[2020-05-08 15:15:37] Thread 0: command: piece 2 4
+[2020-05-08 15:15:37] Thread 1: response: piece 2 4
+[2020-05-08 15:15:38] Thread 1: command: piece 3 4
+[2020-05-08 15:15:38] Thread 0: response: piece 3 4
+[2020-05-08 15:15:40] Thread 0: command: piece 2 5
+[2020-05-08 15:15:40] Thread 0: response: piece 100 100
+[2020-05-08 15:15:40] Thread 0: Finished working
+[2020-05-08 15:15:40] Thread 1: response: piece 2 5 win
+[2020-05-08 15:15:40] Thread 1: Finished working
+[2020-05-08 15:54:34] Server up - listening to 192.168.100.6:3579
+[2020-05-08 15:54:43] Accepted client 0
+[2020-05-08 15:54:43] Thread 0: Starting work
+[2020-05-08 15:54:49] Thread 0: command: create stefy 10 n
+[2020-05-08 15:54:50] Thread 0: response: create gold856
+[2020-05-08 15:54:58] Thread 0: command: ok
+[2020-05-08 15:55:00] Accepted client 1
+[2020-05-08 15:55:00] Thread 1: Starting work
+[2020-05-08 15:55:10] Thread 1: command: join gold856 razvan
+[2020-05-08 15:55:41] Server up - listening to 192.168.100.6:3579
+[2020-05-08 15:55:43] Accepted client 0
+[2020-05-08 15:55:43] Thread 0: Starting work
+[2020-05-08 15:55:50] Thread 0: command: create stefy 10 n
+[2020-05-08 15:55:50] Thread 0: response: create blue878
+[2020-05-08 15:55:52] Thread 0: command: ok
+[2020-05-08 15:55:54] Accepted client 1
+[2020-05-08 15:55:54] Thread 1: Starting work
+[2020-05-08 15:56:02] Thread 1: command: join blue878 razvan
+[2020-05-08 15:56:30] Server up - listening to 192.168.100.6:3579
+[2020-05-08 15:56:32] Accepted client 0
+[2020-05-08 15:56:32] Thread 0: Starting work
+[2020-05-08 15:56:37] Accepted client 1
+[2020-05-08 15:56:37] Thread 1: Starting work
+[2020-05-08 15:56:43] Thread 1: command: create stefy 10 n
+[2020-05-08 15:56:43] Thread 1: response: create turquoise921
+[2020-05-08 15:56:45] Thread 1: command: ok
+[2020-05-08 15:56:47] Accepted client 2
+[2020-05-08 15:56:47] Thread 2: Starting work
+[2020-05-08 15:56:58] Thread 2: command: join turquoise921 razvan
+[2020-05-08 15:56:58] Thread 1: response: player razvan
+[2020-05-08 15:56:58] Thread 2: response: join turquoise921 stefy 10
+[2020-05-08 15:56:59] Thread 2: command: piece -2 -2
+[2020-05-08 15:57:05] Thread 1: command: piece 3 1
+[2020-05-08 15:57:05] Thread 2: response: piece 3 1
+[2020-05-08 15:57:06] Thread 2: command: piece 4 1
+[2020-05-08 15:57:06] Thread 1: response: piece 4 1
+[2020-05-08 15:57:08] Thread 1: command: piece -3 -3
+[2020-05-08 15:57:08] Thread 1: response: exit -3
+[2020-05-08 15:57:08] Thread 1: response: exit
+[2020-05-08 15:57:08] Thread 1: Finished working
+[2020-05-08 15:57:08] Thread 2: response: piece -3 -3
+[2020-05-08 15:57:08] Thread 2: response: exit
+[2020-05-08 15:57:08] Thread 2: Finished working
+[2020-05-08 16:26:41] Server up - listening to 192.168.100.6:3579
+[2020-05-08 16:26:46] Accepted client 0
+[2020-05-08 16:26:46] Thread 0: Starting work
+[2020-05-08 16:26:53] Thread 0: command: create stefy 10 n
+[2020-05-08 16:26:53] Thread 0: response: create azure517
+[2020-05-08 16:26:55] Thread 0: command: ok
+[2020-05-08 16:26:57] Accepted client 1
+[2020-05-08 16:26:57] Thread 1: Starting work
+[2020-05-08 16:27:06] Thread 1: command: join azure517 mihai
+[2020-05-08 16:27:06] Thread 0: response: player mihai
+[2020-05-08 16:27:06] Thread 1: response: join azure517 stefy 10
+[2020-05-08 16:27:07] Thread 1: command: piece -2 -2
+[2020-05-08 16:27:12] Thread 0: command: piece 2 1
+[2020-05-08 16:27:12] Thread 1: response: piece 2 1
+[2020-05-08 16:27:13] Thread 1: command: piece 3 1
+[2020-05-08 16:27:13] Thread 0: response: piece 3 1
+[2020-05-08 16:27:14] Thread 0: command: piece 2 2
+[2020-05-08 16:27:14] Thread 1: response: piece 2 2
+[2020-05-08 16:27:16] Thread 1: command: piece 3 2
+[2020-05-08 16:27:16] Thread 0: response: piece 3 2
+[2020-05-08 16:27:17] Thread 0: command: piece 2 3
+[2020-05-08 16:27:17] Thread 1: response: piece 2 3
+[2020-05-08 16:27:18] Thread 1: command: piece 3 3
+[2020-05-08 16:27:18] Thread 0: response: piece 3 3
+[2020-05-08 16:27:19] Thread 0: command: piece 2 4
+[2020-05-08 16:27:19] Thread 1: response: piece 2 4
+[2020-05-08 16:27:20] Thread 1: command: piece 3 4
+[2020-05-08 16:27:20] Thread 0: response: piece 3 4
+[2020-05-08 16:27:21] Thread 0: command: piece 2 5
+[2020-05-08 16:27:21] Thread 0: response: piece 100 100
+[2020-05-08 16:27:21] Thread 0: Finished working
+[2020-05-08 16:27:21] Thread 1: response: piece 2 5 win
+[2020-05-08 16:27:21] Thread 1: Finished working
+[2020-05-08 16:33:28] Server up - listening to 192.168.100.6:3579
+[2020-05-08 16:33:33] Accepted client 0
+[2020-05-08 16:33:33] Thread 0: Starting work
+[2020-05-08 16:33:38] Thread 0: command: create stefy 10 n
+[2020-05-08 16:33:39] Thread 0: response: create violet877
+[2020-05-08 16:33:41] Thread 0: command: ok
+[2020-05-08 16:33:42] Accepted client 1
+[2020-05-08 16:33:42] Thread 1: Starting work
+[2020-05-08 16:33:50] Thread 1: command: join violet877 razvan
+[2020-05-08 16:33:50] Thread 1: response: join violet877 stefy 10
+[2020-05-08 16:33:50] Thread 0: response: player razvan
+[2020-05-08 16:33:51] Thread 1: command: piece -2 -2
+[2020-05-08 16:33:56] Thread 0: command: piece 2 1
+[2020-05-08 16:33:56] Thread 1: response: piece 2 1
+[2020-05-08 16:33:58] Thread 1: command: piece 3 1
+[2020-05-08 16:33:58] Thread 0: response: piece 3 1
+[2020-05-08 16:33:59] Thread 0: command: piece 2 2
+[2020-05-08 16:33:59] Thread 1: response: piece 2 2
+[2020-05-08 16:34:00] Thread 1: command: piece 3 2
+[2020-05-08 16:34:00] Thread 0: response: piece 3 2
+[2020-05-08 16:34:01] Thread 0: command: piece 2 3
+[2020-05-08 16:34:01] Thread 1: response: piece 2 3
+[2020-05-08 16:34:02] Thread 1: command: piece 3 3
+[2020-05-08 16:34:02] Thread 0: response: piece 3 3
+[2020-05-08 16:34:03] Thread 0: command: piece 2 4
+[2020-05-08 16:34:03] Thread 1: response: piece 2 4
+[2020-05-08 16:34:05] Thread 1: command: piece 3 4
+[2020-05-08 16:34:05] Thread 0: response: piece 3 4
+[2020-05-08 16:34:06] Thread 0: command: piece 2 5
+[2020-05-08 16:34:06] Thread 0: response: piece 100 100
+[2020-05-08 16:34:06] Thread 0: Finished working
+[2020-05-08 16:34:06] Thread 1: response: piece 2 5 win
+[2020-05-08 16:34:06] Thread 1: Finished working
+[2020-05-08 17:15:00] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:15:04] Accepted client 0
+[2020-05-08 17:15:04] Thread 0: Starting work
+[2020-05-08 17:15:14] Thread 0: command: create stefy 10 y
+[2020-05-08 17:15:15] Thread 0: response: create pink393
+[2020-05-08 17:15:16] Thread 0: command: ok
+[2020-05-08 17:15:16] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:15:19] Thread 0: command: piece 3 2
+[2020-05-08 17:15:19] Thread 0: response: piece 1 1
+[2020-05-08 17:15:21] Thread 0: command: piece 4 2
+[2020-05-08 17:15:21] Thread 0: response: piece 2 9
+[2020-05-08 17:15:22] Thread 0: command: piece 5 2
+[2020-05-08 17:15:22] Thread 0: response: piece 5 3
+[2020-05-08 17:15:23] Thread 0: command: piece 6 2
+[2020-05-08 17:15:23] Thread 0: response: piece 2 7
+[2020-05-08 17:15:25] Thread 0: command: piece 7 2
+[2020-05-08 17:15:25] Thread 0: response: piece 100 100
+[2020-05-08 17:15:25] Thread 0: Finished working
+[2020-05-08 17:17:56] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:18:02] Thread 0: Starting work
+[2020-05-08 17:18:02] Accepted client 0
+[2020-05-08 17:18:09] Thread 0: command: create stefy 10 y
+[2020-05-08 17:18:10] Thread 0: response: create red779
+[2020-05-08 17:18:11] Thread 0: command: ok
+[2020-05-08 17:18:11] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:18:15] Thread 0: command: piece 2 1
+[2020-05-08 17:18:15] Thread 0: response: piece 0 9
+[2020-05-08 17:18:20] Thread 0: command: piece 2 2
+[2020-05-08 17:18:20] Thread 0: response: piece 5 6
+[2020-05-08 17:18:24] Thread 0: command: piece 3 2
+[2020-05-08 17:18:24] Thread 0: response: piece 9 1
+[2020-05-08 17:18:26] Thread 0: command: piece 2 3
+[2020-05-08 17:18:26] Thread 0: response: piece 7 4
+[2020-05-08 17:18:31] Thread 0: command: piece 2 4
+[2020-05-08 17:18:31] Thread 0: response: piece 8 2
+[2020-05-08 17:18:33] Thread 0: command: piece 2 5
+[2020-05-08 17:18:33] Thread 0: response: piece 100 100
+[2020-05-08 17:18:33] Thread 0: Finished working
+[2020-05-08 17:21:49] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:22:03] Accepted client 0
+[2020-05-08 17:22:03] Thread 0: Starting work
+[2020-05-08 17:22:11] Thread 0: command: create stefy 10 y
+[2020-05-08 17:22:11] Thread 0: response: create grey665
+[2020-05-08 17:22:13] Thread 0: command: ok
+[2020-05-08 17:22:14] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:22:16] Thread 0: command: piece 2 1
+[2020-05-08 17:22:16] Thread 0: response: piece 3 5
+[2020-05-08 17:22:18] Thread 0: command: piece 3 1
+[2020-05-08 17:22:18] Thread 0: response: piece 2 4
+[2020-05-08 17:22:20] Thread 0: command: piece 4 1
+[2020-05-08 17:22:20] Thread 0: response: piece 9 4
+[2020-05-08 17:22:21] Thread 0: command: piece 5 1
+[2020-05-08 17:22:21] Thread 0: response: piece 7 9
+[2020-05-08 17:22:23] Thread 0: command: piece 6 1
+[2020-05-08 17:22:23] Thread 0: response: piece 100 100
+[2020-05-08 17:22:23] Thread 0: Finished working
+[2020-05-08 17:35:43] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:35:55] Accepted client 0
+[2020-05-08 17:35:55] Thread 0: Starting work
+[2020-05-08 17:36:02] Thread 0: command: create stefy 10 y
+[2020-05-08 17:36:03] Thread 0: response: create plum793
+[2020-05-08 17:36:05] Thread 0: command: ok
+[2020-05-08 17:36:05] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:36:07] Thread 0: command: piece 2 1
+[2020-05-08 17:36:49] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:36:58] Accepted client 0
+[2020-05-08 17:36:58] Thread 0: Starting work
+[2020-05-08 17:37:03] Thread 0: command: create stefy 10 y
+[2020-05-08 17:37:03] Thread 0: response: create turquoise654
+[2020-05-08 17:37:05] Thread 0: command: ok
+[2020-05-08 17:37:05] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:37:07] Thread 0: command: piece 2 1
+[2020-05-08 17:37:43] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:37:51] Accepted client 0
+[2020-05-08 17:37:51] Thread 0: Starting work
+[2020-05-08 17:37:59] Thread 0: command: create stefy 10 y
+[2020-05-08 17:38:41] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:38:51] Accepted client 0
+[2020-05-08 17:38:51] Thread 0: Starting work
+[2020-05-08 17:38:57] Thread 0: command: create stefy 10 y
+[2020-05-08 17:40:23] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:40:39] Accepted client 0
+[2020-05-08 17:40:39] Thread 0: Starting work
+[2020-05-08 17:40:47] Thread 0: command: create stefy 10 y
+[2020-05-08 17:42:36] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:42:45] Accepted client 0
+[2020-05-08 17:42:45] Thread 0: Starting work
+[2020-05-08 17:42:51] Thread 0: command: create stefy 10 y
+[2020-05-08 17:42:52] Thread 0: response: create fuchsia51
+[2020-05-08 17:42:53] Thread 0: command: ok
+[2020-05-08 17:42:53] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:42:55] Thread 0: command: piece 2 1
+[2020-05-08 17:43:05] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:43:21] Thread 0: Starting work
+[2020-05-08 17:43:21] Accepted client 0
+[2020-05-08 17:43:27] Thread 0: command: create stefy 10 y
+[2020-05-08 17:43:27] Thread 0: response: create violet326
+[2020-05-08 17:43:33] Thread 0: command: ok
+[2020-05-08 17:43:33] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:43:36] Thread 0: command: piece 3 1
+[2020-05-08 17:43:56] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:43:58] Accepted client 0
+[2020-05-08 17:43:58] Thread 0: Starting work
+[2020-05-08 17:44:03] Thread 0: command: create stefy 10 y
+[2020-05-08 17:44:04] Thread 0: response: create teal596
+[2020-05-08 17:44:05] Thread 0: command: ok
+[2020-05-08 17:44:05] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:44:07] Thread 0: command: piece 2 1
+[2020-05-08 17:44:30] Server up - listening to 192.168.100.6:3579
+[2020-05-08 17:44:32] Accepted client 0
+[2020-05-08 17:44:32] Thread 0: Starting work
+[2020-05-08 17:44:38] Thread 0: command: create stefy 10 y
+[2020-05-08 17:44:39] Thread 0: response: create salmon20
+[2020-05-08 17:44:41] Thread 0: command: ok
+[2020-05-08 17:44:41] Thread 0: response: player Gomoku_Master
+[2020-05-08 17:44:43] Thread 0: command: piece 2 1
+[2020-05-08 17:44:43] Thread 0: response: piece 9 8
+[2020-05-08 17:44:45] Thread 0: command: piece 3 1
+[2020-05-08 17:44:45] Thread 0: response: piece 9 2
+[2020-05-08 17:44:47] Thread 0: command: piece 3 2
+[2020-05-08 17:44:47] Thread 0: response: piece 5 6
+[2020-05-08 17:44:49] Thread 0: command: piece 4 3
+[2020-05-08 17:44:49] Thread 0: response: piece 3 2
+[2020-05-08 17:44:50] Thread 0: command: piece 5 4
+[2020-05-08 17:44:50] Thread 0: response: piece 0 9
+[2020-05-08 17:44:53] Thread 0: command: piece 6 5
+[2020-05-08 17:44:53] Thread 0: response: piece 100 100
+[2020-05-08 17:44:53] Thread 0: Finished working
