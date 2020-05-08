@@ -1,0 +1,6 @@
+create <player name> <size> <bot? y/n> -> create <gameID> -> ok -> player <name>
+                                          error <message>
+
+join <gameID> <PLAYER NAME> ->  join <gameID> <other player> <size> -> ok -> move <x> <y>
+                                error <message>
+

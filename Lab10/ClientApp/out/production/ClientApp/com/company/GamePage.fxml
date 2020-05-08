@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.GamePage">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <BorderPane prefHeight="600.0" prefWidth="934.0">
+            <center>
+                <Pane fx:id="boardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="534.0" style="-fx-background-color: ffffff; -fx-border-color: blue; -fx-border-width: 5; -fx-border-radius: 20;">
+                    <children>
+                        <Canvas fx:id="canvas" height="443.0" layoutX="20.0" layoutY="19.0" onMouseClicked="#onCanvasClicked" width="495.0" />
+                    </children>
+                </Pane>
+            </center>
+            <top>
+                <Pane prefHeight="63.0" prefWidth="934.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="28.0" layoutY="9.0" text="Timer: " textFill="#4e23b2">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Label>
+                        <Button fx:id="exitButton" layoutX="783.0" layoutY="13.0" mnemonicParsing="false" onAction="#onExitClicked" prefHeight="39.0" prefWidth="134.0" text="EXIT">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Button>
+                        <Label fx:id="timeLabel" layoutX="169.0" layoutY="10.0" prefHeight="44.0" prefWidth="196.0" text="00:00:00" textFill="#4e23b2">
+                            <font>
+                                <Font size="36.0" />
+                            </font>
+                        </Label>
+                  <Label layoutX="351.0" layoutY="10.0" text="Game ID:" textFill="#4e23b2">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gidLabel" layoutX="535.0" layoutY="9.0" prefHeight="44.0" prefWidth="276.0" text="00:00:00" textFill="#4e23b2">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </Pane>
+            </top>
+            <left>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Pane fx:id="Player1Pane" layoutX="9.0" layoutY="14.0" prefHeight="145.0" prefWidth="183.0" style="-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;">
+                            <children>
+                                <Label fx:id="player1Label" layoutX="37.0" layoutY="28.0" text="&lt;Player1&gt;" textAlignment="CENTER" textFill="#dd3b3b">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="119.0" layoutY="81.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: white; -fx-background-radius: 25; -fx-border-radius: 25; -fx-border-color: black; -fx-border-width: 2;" />
+                            </children>
+                        </Pane>
+                        <Pane fx:id="Player3Pane" layoutX="9.0" layoutY="190.0" prefHeight="145.0" prefWidth="183.0" style="-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;">
+                            <children>
+                                <Label fx:id="player3Label" layoutX="37.0" layoutY="28.0" text="&lt;Player3&gt;" textAlignment="CENTER" textFill="#dd3b3b">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="Player5Pane" layoutX="9.0" layoutY="379.0" prefHeight="145.0" prefWidth="183.0" style="-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;">
+                            <children>
+                                <Label fx:id="player5Label" layoutX="37.0" layoutY="28.0" text="&lt;Player5&gt;" textAlignment="CENTER" textFill="#dd3b3b">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </left>
+            <right>
+                <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Pane fx:id="Player2Pane" layoutX="9.0" layoutY="7.0" prefHeight="145.0" prefWidth="183.0" style="-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;">
+                            <children>
+                                <Label fx:id="player2Label" layoutX="37.0" layoutY="28.0" text="&lt;Player2&gt;" textAlignment="CENTER" textFill="#dd3b3b">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                        <Pane layoutX="120.0" layoutY="81.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: black; -fx-background-radius: 25; -fx-border-radius: 25; -fx-border-color: black; -fx-border-width: 2;" />
+                            </children>
+                        </Pane>
+                        <Pane fx:id="Player4Pane" layoutX="9.0" layoutY="189.0" prefHeight="145.0" prefWidth="183.0" style="-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;">
+                            <children>
+                                <Label fx:id="player4Label" layoutX="37.0" layoutY="28.0" text="&lt;Player4&gt;" textAlignment="CENTER" textFill="#dd3b3b">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <Pane fx:id="Player6Pane" layoutX="9.0" layoutY="382.0" prefHeight="145.0" prefWidth="183.0" style="-fx-background-color: ffcccc; -fx-border-color: ffaaaa; -fx-border-width: 3; -fx-border-radius: 10;">
+                            <children>
+                                <Label fx:id="player6Label" layoutX="37.0" layoutY="28.0" text="&lt;Player6&gt;" textAlignment="CENTER" textFill="#dd3b3b">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </right>
+            <bottom>
+                <Pane prefHeight="31.0" prefWidth="934.0" BorderPane.alignment="CENTER" />
+            </bottom>
+        </BorderPane>
+    </children>
+</GridPane>

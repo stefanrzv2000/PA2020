@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="428.0" prefWidth="630.0" style="-fx-background-color: eeffee;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.StartPage">
+   <children>
+      <Label layoutX="124.0" layoutY="72.0" prefHeight="52.0" prefWidth="383.0" text="Welcome to Gomoku!" textFill="#8a1197">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="createButton" layoutX="43.0" layoutY="228.0" mnemonicParsing="false" onAction="#onCreateClicked" prefHeight="76.0" prefWidth="196.0" style="-fx-background-color: ccffcc; -fx-background-radius: 20;" text="Create Game" textFill="#8a1197">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nameText" layoutX="202.0" layoutY="137.0" prefHeight="45.0" prefWidth="226.0" promptText="Enter your name here">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="286.0" layoutY="242.0" text="OR" textFill="#0e53dd">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="joinButton" layoutX="386.0" layoutY="228.0" mnemonicParsing="false" onAction="#onJoinClicked" prefHeight="76.0" prefWidth="196.0" style="-fx-background-color: ccffcc; -fx-background-radius: 20;" text="Join by ID" textFill="#8a1197">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="gameIdText" layoutX="419.0" layoutY="343.0" prefHeight="45.0" prefWidth="131.0" promptText="Game ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sizeText" layoutX="76.0" layoutY="343.0" prefHeight="45.0" prefWidth="131.0" promptText="Size (5 - 19)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="botBox" layoutX="76.0" layoutY="314.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="131.0" text="Play vs Bot" textFill="#8a1197">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="exitButton" layoutX="509.0" layoutY="14.0" mnemonicParsing="false" onAction="#onExitClicked" prefHeight="45.0" prefWidth="106.0" style="-fx-background-color: ffeeee; -fx-background-radius: 20;" text="EXIT" textFill="#8a1197">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
