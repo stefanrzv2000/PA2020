@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.entities.Player">
+        <table name="player" schema="gomoku" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <basic name="username">
+                <column name="username" nullable="false"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

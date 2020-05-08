@@ -1,0 +1,7 @@
+POST https://192.168.100.6:8642/players/add/cosmin
+Accept: application/json
+###
+
+PUT https://192.168.100.6:8642/players/3/akriel
+###
+

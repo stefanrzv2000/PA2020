@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.entities.Game">
+        <table name="game" schema="gomoku" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <basic name="dataJoc">
+                <column name="data_joc" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="id1">
+                <column name="id1" precision="11"/>
+            </basic>
+            <basic name="id2">
+                <column name="id2" precision="11"/>
+            </basic>
+            <basic name="sgfResume">
+                <column name="sgf_resume" nullable="false"/>
+            </basic>
+            <basic name="win">
+                <column name="win" nullable="false" precision="11"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
