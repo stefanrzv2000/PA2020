@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.5" class="java.beans.XMLDecoder">
+ <object class="javafx.scene.layout.Pane">
+  <void property="id">
+   <string>design</string>
+  </void>
+  <void property="layoutX">
+   <double>22.0</double>
+  </void>
+  <void property="layoutY">
+   <double>23.0</double>
+  </void>
+  <void property="prefHeight">
+   <double>784.0</double>
+  </void>
+  <void property="prefWidth">
+   <double>898.0</double>
+  </void>
+  <void property="style">
+   <string>-fx-background-color: eeeeee; -fx-background-radius: 30;</string>
+  </void>
+ </object>
+</java>

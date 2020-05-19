@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.5" class="java.beans.XMLDecoder">
+ <object class="sample.config.DesignConfig" id="DesignConfig0">
+  <void property="nodes">
+   <void method="add">
+    <object class="sample.config.NodeConfig" id="NodeConfig0">
+     <void property="clazz">
+      <class>javafx.scene.control.Button</class>
+     </void>
+     <void property="properties">
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>minHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>ellipsisString</string>
+        </void>
+        <void property="value">
+         <string>...</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>rotate</string>
+        </void>
+        <void property="value">
+         <double>-60.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>baselineOffset</string>
+        </void>
+        <void property="value">
+         <double>19.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>opacity</string>
+        </void>
+        <void property="value">
+         <double>0.5</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleY</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>lineSpacing</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>style</string>
+        </void>
+        <void property="value">
+         <string>-fx-border-color:#33ffdd</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>prefWidth</string>
+        </void>
+        <void property="value">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>height</string>
+        </void>
+        <void property="value">
+         <double>50.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleZ</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>prefHeight</string>
+        </void>
+        <void property="value">
+         <double>50.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>minWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>graphicTextGap</string>
+        </void>
+        <void property="value">
+         <double>4.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>typeSelector</string>
+        </void>
+        <void property="value">
+         <string>Button</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>width</string>
+        </void>
+        <void property="value">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>maxHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>maxWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateY</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>text</string>
+        </void>
+        <void property="value">
+         <string>CLICK ME!!!</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>layoutX</string>
+        </void>
+        <void property="value">
+         <double>444.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>layoutY</string>
+        </void>
+        <void property="value">
+         <double>131.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>viewOrder</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleX</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateZ</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateX</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="sample.config.NodeConfig" id="NodeConfig1">
+     <void property="clazz">
+      <class>javafx.scene.control.Label</class>
+     </void>
+     <void property="properties">
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>prefHeight</string>
+        </void>
+        <void property="value">
+         <double>100.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>graphicTextGap</string>
+        </void>
+        <void property="value">
+         <double>4.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleX</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>width</string>
+        </void>
+        <void property="value">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>maxHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>layoutY</string>
+        </void>
+        <void property="value">
+         <double>552.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>minWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>typeSelector</string>
+        </void>
+        <void property="value">
+         <string>Label</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>minHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>lineSpacing</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateX</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleY</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateY</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleZ</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>baselineOffset</string>
+        </void>
+        <void property="value">
+         <double>13.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>ellipsisString</string>
+        </void>
+        <void property="value">
+         <string>...</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>height</string>
+        </void>
+        <void property="value">
+         <double>100.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>prefWidth</string>
+        </void>
+        <void property="value">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>layoutX</string>
+        </void>
+        <void property="value">
+         <double>180.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>opacity</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>maxWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateZ</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>rotate</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>text</string>
+        </void>
+        <void property="value">
+         <string>Mergee</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>viewOrder</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>style</string>
+        </void>
+        <void property="value">
+         <string>-fx-background-color:#ffeecc</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="sample.config.NodeConfig" id="NodeConfig2">
+     <void property="clazz">
+      <class>javafx.scene.control.TableView</class>
+     </void>
+     <void property="properties">
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleZ</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateY</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>prefWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>minWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>rotate</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>baselineOffset</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>width</string>
+        </void>
+        <void property="value">
+         <double>247.2135948</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>maxHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>maxWidth</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>layoutX</string>
+        </void>
+        <void property="value">
+         <double>507.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>typeSelector</string>
+        </void>
+        <void property="value">
+         <string>TableView</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>style</string>
+        </void>
+        <void property="value">
+         <string></string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>minHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleX</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateZ</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>translateX</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>scaleY</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>opacity</string>
+        </void>
+        <void property="value">
+         <double>1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>fixedCellSize</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>height</string>
+        </void>
+        <void property="value">
+         <double>400.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>layoutY</string>
+        </void>
+        <void property="value">
+         <double>330.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>prefHeight</string>
+        </void>
+        <void property="value">
+         <double>-1.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.Double</class>
+        </void>
+        <void property="name">
+         <string>viewOrder</string>
+        </void>
+        <void property="value">
+         <double>0.0</double>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

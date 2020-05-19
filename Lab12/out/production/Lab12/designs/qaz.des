@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.5" class="java.beans.XMLDecoder">
+ <object class="sample.config.DesignConfig" id="DesignConfig0">
+  <void property="nodes">
+   <void method="add">
+    <object class="sample.config.NodeConfig" id="NodeConfig0">
+     <void property="clazz">
+      <class>javafx.scene.control.Button</class>
+     </void>
+     <void property="properties">
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>style</string>
+        </void>
+        <void property="value">
+         <string></string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>text</string>
+        </void>
+        <void property="value">
+         <string>blabla</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>typeSelector</string>
+        </void>
+        <void property="value">
+         <string>Button</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="sample.config.Property">
+        <void property="clazz">
+         <class>java.lang.String</class>
+        </void>
+        <void property="name">
+         <string>ellipsisString</string>
+        </void>
+        <void property="value">
+         <string>...</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
